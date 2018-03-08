@@ -11,3 +11,4 @@
     
 * [数据库](/chapters/database/README.md)
     * [MySQL](/chapters/database/mysql.md)
+    * [Redis](/chapters/database/redis.md)
