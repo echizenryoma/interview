@@ -6,7 +6,9 @@
     "test": "gitbook build"
   },
   "dependencies": {
-    "gitbook": "^1.0.0",
+    "gitbook-cli": "^1.0.0",
+    "gitbook-asciidoc": "^1.0.0",
+    "gitbook-markdown": "^1.0.0",
     "gitbook-plugin-highlight": "^1.0.0",
     "gitbook-plugin-search": "^1.0.0",
     "gitbook-plugin-lunr": "^1.0.0",
