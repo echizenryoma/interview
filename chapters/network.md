@@ -1,43 +1,108 @@
-# TCP/IP协议
+# 计算机网络
 
-1. TCP/IP模型和OSI模型
+## TCP/IP协议
 
-<table>
-<tr>
-    <td align="center"><b>OSI模型</b></td>
-    <td align="center"><b>TCP/IP模型</b></td>
-    <td align="center"><b>对应网络协议实例</b></td>
-</tr>
-<tr>
-    <td align="center">应用层</td>
-    <td align="center" rowspan="3">应用层</td>
-    <td align="center">TFTP, FTP, NFS, WAIS</td>
-</tr>
-<tr>
-    <td align="center">表示层</td>
-    <td align="center">Telnet, Rlogin, SNMP, Gopher</td>
-</tr>
-<tr>
-    <td align="center">会话层</td>
-    <td align="center">SMTP, DNS</td>
-</tr>
-<tr>
-    <td align="center">传输层</td>
-    <td align="center">传输层</td>
-    <td align="center">TCP, UDP</td>
-</tr>
-<tr>
-    <td align="center">网络层</td>
-    <td align="center">网际层</td>
-    <td align="center">IP, ICMP, ARP, RARP, AKP, UUCP</td>
-</tr>
-<tr>
-    <td align="center">数据链路层</td>
-    <td align="center" rowspan="2">网络接口</td>
-    <td align="center">FDDI, Ethernet, Arpanet, PDN, SLIP, PPP</td>
-</tr>
-<tr>
-    <td align="center">物理层</td>
-    <td align="center">IEEE 802.1A, IEEE 802.2到IEEE 802.11</td>
-</tr>
-</table>
+### TCP/IP模型和OSI模型
+
+### 三次握手和四次挥手
+
+![](/assets/network-tcp-01.jpg)
+
+### TCP和UDP区别
+
+|  | TCP | UDP |
+| :---: | :---: | :---: |
+| 是否连接 | 面向连接 | 面向非连接 |
+| 传输可靠性 | 应用层 | 不可靠的 |
+| 应用场合 | 传输大量的数据 | 传输少量数据 |
+
+TCP协议和UDP协议特性区别：
+
+1. TCP协议在传送数据段的时候要给段标号；UDP协议不需要
+2. TCP协议是可靠的；UDP协议是不可靠的
+3. TCP协议是面向连接；UDP协议采用无连接
+4. TCP协议负载较高，采用虚拟电路方式；UDP采用无连接   方式
+5. TCP协议的发送方要确认接收方是否收到数据段（3次握手协议）
+6. TCP协议采用窗口技术和流控制
+
+## HTTP
+
+### HTTP协议
+
+HTTP（超文本传输协议，HyperText Transfer Protocol）是互联网上应用最为广泛的一种网络协议。所有的WWW文件都必须遵守这个标准。设计HTTP最初的目的是为了提供一种发布和接收HTML页面的方法。是用于从WWW服务器传输超文本到本地浏览器的传输协议。默认使用80端口，HTTP客户端发起一个请求，建立一个到服务器指定端口（默认是80端口）的TCP连接。HTTP协议和TCP协议是不冲突的，HTTP定义在七层协议中的应用层，TCP解决的是传输层的逻辑。HTTP使用TCP而不是UDP的原因在于（打开）一个网页必须传送很多数据，而TCP协议提供传输控制，按顺序组织数据，和错误纠正。HTTP协议的瓶颈及其优化技巧都是基于TCP协议本身的特性。如TCP建立连接时三次握手有1.5个RTT（round-trip time）的延迟，为了避免每次请求的都经历握手带来的延迟，应用层会选择不同策略的HTTP长链接方案。又如TCP在建立连接的初期有慢启动（slow start）的特性，所以连接的重用总是比新建连接性能要好。
+
+### 从输入URL到页面加载发生了什么？
+
+总体来说分为以下几个过程:
+
+1. DNS解析
+2. TCP连接
+3. 发送HTTP请求
+4. 服务器处理请求并返回HTTP报文
+5. 浏览器解析渲染页面
+6. 连接结束
+
+### HTTP/1.1相较于HTTP/1.0的区别
+
+HTTP/1.1在继承了HTTP/1.0优点的基础上，也克服了HTTP/1.0的性能问题。
+
+HTTP/1.1支持长链接，在一个TCP连接上可以传送多个HTTP请求和响应，减少了建立和
+
+关闭连接的消耗和延迟，客户端和服务端都是默认对方支持长链接的。
+
+HTTP/1.1允许客户端不用等待上一次请求结果返回，就可以发出下一次请求。
+
+在HTTP/1.1，Request和Response头中都有可能出现一个Connection的头，此Header的含义是当客户端和服务端通信时对于长链接如何进行处理。
+
+HTTP/1.1通过增加更多的请求头和响应头来改进和扩充HTTP/1.0的功能。HTTP/1.1还提供了与身份认证、状态管理和Cache缓存等机制相关的请求头和响应头。_（例如，HTTP/1.0不支持Host请求头字段，WEB浏览器无法使用主机头名来明确表示要访问服务器上的哪个WEB站点，这样就无法使用WEB服务器在同一个IP地址和端口号上配置多个虚拟WEB站点。）_
+
+HTTP/1.1支持文件断点续传。
+
+### 请求方式
+
+GET请求获取Request-URI所标识的资源
+
+POST在Request-URI所标识的资源后附加新的数据
+
+HEAD请求获取由Request-URI所标识的资源的响应消息报头
+
+PUT请求服务器存储一个资源，并用Request-URI作为其标识
+
+DELETE请求服务器删除Request-URI所标识的资源
+
+TRACE请求服务器回送收到的请求信息，主要用于测试或诊断
+
+CONNECT保留将来使用
+
+OPTIONS请求查询服务器的性能，或者查询与资源相关的选项和需求
+
+### 状态代码
+
+1xx：指示信息——表示请求已接收，继续处理。
+
+2xx：成功——表示请求已被成功接收、理解、接受。
+
+3xx：重定向——要完成请求必须进行更进一步的操作。
+
+4xx：客户端错误——请求有语法错误或请求无法实现。
+
+5xx：服务器端错误——服务器未能实现合法的请求。
+
+
+
+200 OK 一切正常，对GET和POST请求的应答文档跟在后面。
+
+204 No Content 没有新文档，浏览器应该继续显示原来的文档。如果用户定期地刷新页面，而Servlet可以确定用户文档足够新，这个状态代码是很有用的。
+
+301 Moved Permanently 客户请求的文档在其他地方，新的URL在Location头中给出，浏览器应该自动地访问新的URL。
+
+302 Found 类似于301，但新的URL应该被视为临时性的替代，而不是永久性的。
+
+400 Bad Request 请求出现语法错误。
+
+401 Unauthorized 客户试图未经授权访问受密码保护的页面。应答中会包含一个WWW-Authenticate头，浏览器据此显示用户名字/密码对话框，然后在填写合适的Authorization头后再次发出请求。
+
+403 Forbidden 资源不可用。服务器理解客户的请求，但拒绝处理它。通常由于服务器上文件或目录的权限设置导致。
+
+404 Not Found 无法找到指定位置的资源。这也是一个常用的应答。
+
