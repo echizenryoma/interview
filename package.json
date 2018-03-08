@@ -1,0 +1,11 @@
+{
+  "name": "docs",
+  "version": "0.1.0",
+  "scripts": {
+    "pretest": "gitbook init && gitbook install",
+    "test": "gitbook build"
+  },
+  "dependencies": {
+    "gitbook-cli": "^1.0.0"
+  }
+}
