@@ -6,6 +6,10 @@
     "test": "gitbook build"
   },
   "dependencies": {
-    "gitbook-cli": "^1.0.0"
+    "gitbook-cli": "^1.0.0",
+    "gitbook-plugin-highlight": "^1.0.0",
+    "gitbook-plugin-search": "^1.0.0",
+    "gitbook-plugin-lunr": "^1.0.0",
+    "gitbook-plugin-fontsettings": "^1.0.0"
   }
 }
