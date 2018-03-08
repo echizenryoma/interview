@@ -4,6 +4,46 @@
 
 ### TCP/IP模型和OSI模型
 
+<table>
+<tr>
+    <td align="center"><b>OSI模型</b></td>
+    <td align="center"><b>TCP/IP模型</b></td>
+    <td align="center"><b>对应网络协议实例</b></td>
+</tr>
+<tr>
+    <td align="center">应用层</td>
+    <td align="center" rowspan="3">应用层</td>
+    <td align="center">TFTP, FTP, NFS, WAIS</td>
+</tr>
+<tr>
+    <td align="center">表示层</td>
+    <td align="center">Telnet, Rlogin, SNMP, Gopher</td>
+</tr>
+<tr>
+    <td align="center">会话层</td>
+    <td align="center">SMTP, DNS</td>
+</tr>
+<tr>
+    <td align="center">传输层</td>
+    <td align="center">传输层</td>
+    <td align="center">TCP, UDP</td>
+</tr>
+<tr>
+    <td align="center">网络层</td>
+    <td align="center">网际层</td>
+    <td align="center">IP, ICMP, ARP, RARP, AKP, UUCP</td>
+</tr>
+<tr>
+    <td align="center">数据链路层</td>
+    <td align="center" rowspan="2">网络接口</td>
+    <td align="center">FDDI, Ethernet, Arpanet, PDN, SLIP, PPP</td>
+</tr>
+<tr>
+    <td align="center">物理层</td>
+    <td align="center">IEEE 802.1A, IEEE 802.2到IEEE 802.11</td>
+</tr>
+</table>
+
 ### 三次握手和四次挥手
 
 ![](/assets/network-tcp-01.jpg)
@@ -45,78 +85,71 @@ HTTP（超文本传输协议，HyperText Transfer Protocol）是互联网上应�
 
 ### HTTP/1.1相较于HTTP/1.0的区别
 
-HTTP/1.1在继承了HTTP/1.0优点的基础上，也克服了HTTP/1.0的性能问题。
-
-HTTP/1.1支持长链接，在一个TCP连接上可以传送多个HTTP请求和响应，减少了建立和
-
-关闭连接的消耗和延迟，客户端和服务端都是默认对方支持长链接的。
-
-HTTP/1.1允许客户端不用等待上一次请求结果返回，就可以发出下一次请求。
-
-在HTTP/1.1，Request和Response头中都有可能出现一个Connection的头，此Header的含义是当客户端和服务端通信时对于长链接如何进行处理。
-
-HTTP/1.1通过增加更多的请求头和响应头来改进和扩充HTTP/1.0的功能。HTTP/1.1还提供了与身份认证、状态管理和Cache缓存等机制相关的请求头和响应头。_（例如，HTTP/1.0不支持Host请求头字段，WEB浏览器无法使用主机头名来明确表示要访问服务器上的哪个WEB站点，这样就无法使用WEB服务器在同一个IP地址和端口号上配置多个虚拟WEB站点。）    
-_
-
-HTTP/1.1支持文件断点续传。
+* HTTP/1.1在继承了HTTP/1.0优点的基础上，也克服了HTTP/1.0的性能问题。
+* HTTP/1.1支持长链接，在一个TCP连接上可以传送多个HTTP请求和响应，减少了建立和
+* 关闭连接的消耗和延迟，客户端和服务端都是默认对方支持长链接的。
+* HTTP/1.1允许客户端不用等待上一次请求结果返回，就可以发出下一次请求。
+* 在HTTP/1.1，Request和Response头中都有可能出现一个Connection的头，此Header的含义是当客户端和服务端通信时对于长链接如何进行处理。
+* HTTP/1.1通过增加更多的请求头和响应头来改进和扩充HTTP/1.0的功能。HTTP/1.1还提供了与身份认证、状态管理和Cache缓存等机制相关的请求头和响应头。例如：_HTTP/1.0不支持Host请求头字段，WEB浏览器无法使用主机头名来明确表示要访问服务器上的哪个WEB站点，这样就无法使用WEB服务器在同一个IP地址和端口号上配置多个虚拟WEB站点。 _
+* HTTP/1.1支持文件断点续传。
 
 ### 请求方式
 
-GET请求获取Request-URI所标识的资源
-
-POST在Request-URI所标识的资源后附加新的数据
-
-HEAD请求获取由Request-URI所标识的资源的响应消息报头
-
-PUT请求服务器存储一个资源，并用Request-URI作为其标识
-
-DELETE请求服务器删除Request-URI所标识的资源
-
-TRACE请求服务器回送收到的请求信息，主要用于测试或诊断
-
-CONNECT保留将来使用
-
-OPTIONS请求查询服务器的性能，或者查询与资源相关的选项和需求
+* GET请求获取Request-URI所标识的资源
+* POST在Request-URI所标识的资源后附加新的数据
+* HEAD请求获取由Request-URI所标识的资源的响应消息报头
+* PUT请求服务器存储一个资源，并用Request-URI作为其标识
+* DELETE请求服务器删除Request-URI所标识的资源
+* TRACE请求服务器回送收到的请求信息，主要用于测试或诊断
+* CONNECT保留将来使用
+* OPTIONS请求查询服务器的性能，或者查询与资源相关的选项和需求
 
 ### 状态代码
 
-1xx：指示信息——表示请求已接收，继续处理。
+* 1xx：指示信息——表示请求已接收，继续处理。
+* 2xx：成功——表示请求已被成功接收、理解、接受。
+* 3xx：重定向——要完成请求必须进行更进一步的操作。
+* 4xx：客户端错误——请求有语法错误或请求无法实现。
+* 5xx：服务器端错误——服务器未能实现合法的请求。
 
-2xx：成功——表示请求已被成功接收、理解、接受。
+**常见的状态码**
 
-3xx：重定向——要完成请求必须进行更进一步的操作。
-
-4xx：客户端错误——请求有语法错误或请求无法实现。
-
-5xx：服务器端错误——服务器未能实现合法的请求。
-
- 
-
-200 OK 一切正常，对GET和POST请求的应答文档跟在后面。
-
-204 No Content 没有新文档，浏览器应该继续显示原来的文档。如果用户定期地刷新页面，而Servlet可以确定用户文档足够新，这个状态代码是很有用的。
-
-301 Moved Permanently 客户请求的文档在其他地方，新的URL在Location头中给出，浏览器应该自动地访问新的URL。
-
-302 Found 类似于301，但新的URL应该被视为临时性的替代，而不是永久性的。
-
-400 Bad Request 请求出现语法错误。
-
-401 Unauthorized 客户试图未经授权访问受密码保护的页面。应答中会包含一个WWW-Authenticate头，浏览器据此显示用户名字/密码对话框，然后在填写合适的Authorization头后再次发出请求。
-
-403 Forbidden 资源不可用。服务器理解客户的请求，但拒绝处理它。通常由于服务器上文件或目录的权限设置导致。
-
-404 Not Found 无法找到指定位置的资源。这也是一个常用的应答。
-
-502 Bad Gateway 服务器作为网关或者代理时，为了完成请求访问下一个服务器，但该服务器返回了非法的应答。
+* 200 OK 一切正常，对GET和POST请求的应答文档跟在后面。
+* 204 No Content 没有新文档，浏览器应该继续显示原来的文档。如果用户定期地刷新页面，而Servlet可以确定用户文档足够新，这个状态代码是很有用的。
+* 301 Moved Permanently 客户请求的文档在其他地方，新的URL在Location头中给出，浏览器应该自动地访问新的URL。
+* 302 Found 类似于301，但新的URL应该被视为临时性的替代，而不是永久性的。
+* 400 Bad Request 请求出现语法错误。
+* 401 Unauthorized 客户试图未经授权访问受密码保护的页面。应答中会包含一个WWW-Authenticate头，浏览器据此显示用户名字/密码对话框，然后在填写合适的Authorization头后再次发出请求。
+* 403 Forbidden 资源不可用。服务器理解客户的请求，但拒绝处理它。通常由于服务器上文件或目录的权限设置导致。
+* 404 Not Found 无法找到指定位置的资源。这也是一个常用的应答。
+* 502 Bad Gateway 服务器作为网关或者代理时，为了完成请求访问下一个服务器，但该服务器返回了非法的应答。
 
 ### HTTP幂等性
 
-GET方法用于获取资源，不应有副作用，所以是幂等的。
+* GET方法用于获取资源，不应有副作用，所以是幂等的。
+* DELETE方法用于删除资源，有副作用，但它应该满足幂等性。
+* POST方法用于创建资源，所对应的URI并非创建的资源本身，而是去执行创建动作的操作者，有副作用，不满足幂等性。
+* PUT方法用于创建或更新操作，所对应的URI是要创建或更新的资源本身，有副作用，它应该满足幂等性。
 
-DELETE方法用于删除资源，有副作用，但它应该满足幂等性。
+### 跨站请求伪造\(Cross-site request forgery, CSRF\)
 
-POST方法用于创建资源，所对应的URI并非创建的资源本身，而是去执行创建动作的操作者，有副作用，不满足幂等性。
+1. 检查Referer字段
+2. 添加校验Token
 
-PUT方法用于创建或更新操作，所对应的URI是要创建或更新的资源本身，有副作用，它应该满足幂等性。
+### 跨站脚本\(Cross-site scripting, XSS\)
+
+1. 过滤特殊字符
+2. 使用HTTP头指定类型
+
+## HTTPS
+
+### HTTPS协议和HTTP 协议
+
+HTTPS = HTTP + SSL/TLS
+
+### HTTPS优缺点
+
+HTTPS在传输数据之前需要客户端与服务器进行一个握手\(TLS/SSL握手\)，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL使用了非对称加密，对称加密以及信息摘要函数等。
+
+HTTPS相比于HTTP，虽然提供了安全保证，但是势必会带来一些时间上的损耗，如握手和加密等过程，是否使用HTTPS需要根据具体情况在安全和性能方面做出权衡。
 
