@@ -8,7 +8,30 @@
 
 不符合第一范式的实例：
 
-![](/assets/database-1nf.jpg)
+<table>
+<tr>
+    <td align="center" rowspan="2"><b>编号</b></td>
+    <td align="center" rowspan="2"><b>品名</b></td>
+    <td align="center" colspan="2"><b>进货</b></td>
+    <td align="center" colspan="2"><b>销售</b></td>
+    <td align="center" rowspan="2"><b>备注</b></td>
+</tr>
+<tr>
+    <td align="center"><b>数量</b></td>
+    <td align="center"><b>单价</b></td>
+    <td align="center"><b>数量</b></td>
+    <td align="center"><b>单价</b></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
 
 #### 第二范式
 
