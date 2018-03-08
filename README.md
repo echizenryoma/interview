@@ -9,6 +9,3 @@
 ## 贡献者
 
 * [echizenryoma](https://github.com/echizenryoma)
-
-
-
