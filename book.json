@@ -1,7 +1,6 @@
 {
   "title": "面试知识整理",
   "description": "面试知识整理",
-  "language": "zh-cn",
   "plugins": [
     "highlight",
     "search",
