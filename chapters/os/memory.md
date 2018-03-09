@@ -34,7 +34,7 @@ static int i;
 
 这两个概念都是很常见的概念，又经常在一起使用，很容易造成混淆。
 
-`全局变量`：在一个代码文件（具体说应该一个 [translation unit/compilation unit](https://en.wikipedia.org/wiki/Translation_unit_(programming))）当中，一个变量要么定义在函数中，要么定义在在函数外面。当定义在函数外面时，这个变量就有了全局作用域，成为了全局变量。全局变量不光意味着这个变量可以在整个文件中使用，也意味着这个变量可以在其他文件中使用（这种叫做 [external linkage](https://en.wikipedia.org/wiki/External_linkage)）。当有如下两个文件时；
+`全局变量`：在一个代码文件当中，一个变量要么定义在函数中，要么定义在在函数外面。当定义在函数外面时，这个变量就有了全局作用域，成为了全局变量。全局变量不光意味着这个变量可以在整个文件中使用，也意味着这个变量可以在其他文件中使用（这种叫做 [external linkage](https://en.wikipedia.org/wiki/External_linkage)）。当有如下两个文件时；
 
 a.c
 
