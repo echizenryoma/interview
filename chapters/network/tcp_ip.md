@@ -4,47 +4,47 @@
 
 <table>
 <tr>
-    <td align="center"><b>OSI模型</b></td>
-    <td align="center"><b>TCP/IP模型</b></td>
-    <td align="center"><b>对应网络协议实例</b></td>
+  <td align="center"><b>OSI模型</b></td>
+  <td align="center"><b>TCP/IP模型</b></td>
+  <td align="center"><b>对应网络协议实例</b></td>
 </tr>
 <tr>
-    <td align="center">应用层</td>
-    <td align="center" rowspan="3">应用层</td>
-    <td align="center">TFTP, FTP, NFS, WAIS</td>
+  <td align="center">应用层</td>
+  <td align="center" rowspan="3">应用层</td>
+  <td align="center">TFTP, FTP, NFS, WAIS</td>
 </tr>
 <tr>
-    <td align="center">表示层</td>
-    <td align="center">Telnet, Rlogin, SNMP, Gopher</td>
+  <td align="center">表示层</td>
+  <td align="center">Telnet, Rlogin, SNMP, Gopher</td>
 </tr>
 <tr>
-    <td align="center">会话层</td>
-    <td align="center">SMTP, DNS</td>
+  <td align="center">会话层</td>
+  <td align="center">SMTP, DNS</td>
 </tr>
 <tr>
-    <td align="center">传输层</td>
-    <td align="center">传输层</td>
-    <td align="center">TCP, UDP</td>
+  <td align="center">传输层</td>
+  <td align="center">传输层</td>
+  <td align="center">TCP, UDP</td>
 </tr>
 <tr>
-    <td align="center">网络层</td>
-    <td align="center">网际层</td>
-    <td align="center">IP, ICMP, ARP, RARP, AKP, UUCP</td>
+  <td align="center">网络层</td>
+  <td align="center">网际层</td>
+  <td align="center">IP, ICMP, ARP, RARP, AKP, UUCP</td>
 </tr>
 <tr>
-    <td align="center">数据链路层</td>
-    <td align="center" rowspan="2">网络接口</td>
-    <td align="center">FDDI, Ethernet, Arpanet, PDN, SLIP, PPP</td>
+  <td align="center">数据链路层</td>
+  <td align="center" rowspan="2">网络接口</td>
+  <td align="center">FDDI, Ethernet, Arpanet, PDN, SLIP, PPP</td>
 </tr>
 <tr>
-    <td align="center">物理层</td>
-    <td align="center">IEEE 802.1A, IEEE 802.2-IEEE 802.11</td>
+  <td align="center">物理层</td>
+  <td align="center">IEEE 802.1A, IEEE 802.2-IEEE 802.11</td>
 </tr>
 </table>
 
 ### 三次握手
 
-```asciidoc
+```
     Client                             Server
 +-------------+                    +-------------+
 |             |                    |LISTEN       |
@@ -62,7 +62,7 @@
 
 ### 四次挥手
 
-```asciidoc
+```
     Client                             Server
 +-------------+                    +-------------+
 |   FIN_WAIT_1| SYN seq=x, ACK=y+1 |             |
@@ -95,6 +95,3 @@ TCP协议和UDP协议特性区别：
 4. TCP协议负载较高，采用虚拟电路方式；UDP采用无连接方式
 5. TCP协议的发送方要确认接收方是否收到数据段（3次握手协议）
 6. TCP协议采用窗口技术和流控制
-
-
-

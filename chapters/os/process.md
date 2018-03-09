@@ -66,16 +66,81 @@
 
 * 多路复用IO（multiplexing IO）
 
-* ~~信号驱动式IO（signal-driven IO）~~ 【不常用】
+* ~~信号驱动IO（signal-driven IO）~~ 【不常用】
 
 * **异步IO（asynchronous IO）**
 
-|  | **阻塞** | **非阻塞** |
-| :---: | :---: | :---: |
-| **同步** | read/write | read/write\(`O_NONBLOCK`\) |
-| **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO |
+|          | **阻塞**                            | **非阻塞**                 |
+| :------: | :---------------------------------: | :------------------------: |
+| **同步** | read/write                          | read/write\(`O_NONBLOCK`\) |
+| **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO            |
 
-
+<table>
+<tr>
+  <td align="center"><b>阻塞IO</b></td>
+  <td align="center"><b>非阻塞IO</b></td>
+  <td align="center"><b>多路复用IO</b></td>
+  <td align="center"><b>信号驱动IO</b></td>
+  <td align="center"><b>异步IO</b></td>
+</tr>
+<tr>
+  <td align="center">
+    发起<br />
+      | <br />
+      | <br />
+      | <br />
+    阻塞<br />
+      | <br />
+      | <br />
+      ↓ <br />
+    完成<br />
+  </td>
+  <td align="center">
+    检查<br />
+    检查<br />
+    …<br />
+    检查<br />
+    检查<br />
+      | <br />
+    阻塞<br />
+      ↓ <br />
+    完成<br />
+  </td>
+  <td align="center">
+    检查<br />
+      | <br />
+    阻塞<br />
+      ↓ <br />
+  就绪发起<br />
+      | <br />
+    阻塞<br />
+      ↓ <br />
+    完成<br />
+  </td>
+  <td align="center">
+    <br />
+    <br />
+    <br />
+    <br />
+    通知发起<br />
+      | <br />
+     阻塞<br />
+      ↓ <br />
+    完成<br />
+  </td>
+  <td align="center">
+    发起<br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    通知<br />
+  </td>
+</tr>
+</table>
 
 ### IO多路复用（事件驱动）
 
