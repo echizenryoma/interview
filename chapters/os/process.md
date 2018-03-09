@@ -80,10 +80,10 @@
 <table>
 <tr>
   <td align="center"><b>阻塞I/O</b></td>
-  <td align="center"><b>非阻塞IO</b></td>
-  <td align="center"><b>多路复用IO</b></td>
-  <td align="center"><b>信号驱动IO</b></td>
-  <td align="center"><b>异步IO</b></td>
+  <td align="center"><b>非阻塞I/O</b></td>
+  <td align="center"><b>多路复用I/O</b></td>
+  <td align="center"><b>信号驱动I/O</b></td>
+  <td align="center"><b>异步I/O</b></td>
 </tr>
 <tr>
   <td align="center">
