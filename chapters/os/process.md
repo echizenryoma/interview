@@ -72,7 +72,7 @@
 
 | | **阻塞** | **非阻塞** |
 | :--: | :-------: | :-------: |
-| **同步** | read/write                          | read/write<br />\(`O_NONBLOCK`\) |
+| **同步** | read/write | read/write<br />\(`O_NONBLOCK`\) |
 | **异步** | multiplexing I/O<br />\(`select`/`poll`\) | asynchronous IO            |
 
 #### I/O模型比较
