@@ -56,32 +56,36 @@
 4. 线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。
 5. 从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。
 
-### Linux的IO模型
+### Linux的I/O模型
 
-* **同步模型（synchronous IO）**
+* **同步模型（synchronous I/O）**
 
-* 阻塞IO（bloking IO）
+* 阻塞IO（bloking I/O）
 
-* 非阻塞IO（non-blocking IO）
+* 非阻塞IO（non-blocking I/O）
 
-* 多路复用IO（multiplexing IO）
+* 多路复用IO（multiplexing I/O）
 
-* ~~信号驱动IO（signal-driven IO）~~ 【不常用】
+* ~~信号驱动IO（signal-driven I/O）~~ 不常用
 
-* **异步IO（asynchronous IO）**
+* **异步IO（asynchronous I/O）**
 
-|          | **阻塞**                            | **非阻塞**                 |
-| :------: | :---------------------------------: | :------------------------: |
-| **同步** | read/write                          | read/write\(`O_NONBLOCK`\) |
-| **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO            |
+#### 简单矩阵
+
+| | **阻塞** | **非阻塞** |
+| :--: | :-------: | :-------: |
+| **同步** | read/write | read/write<br />\(`O_NONBLOCK`\) |
+| **异步** | multiplexing I/O<br />\(`select`/`poll`\) | asynchronous IO |
+
+#### I/O模型比较
 
 <table>
 <tr>
-  <td align="center"><b>阻塞IO</b></td>
-  <td align="center"><b>非阻塞IO</b></td>
-  <td align="center"><b>多路复用IO</b></td>
-  <td align="center"><b>信号驱动IO</b></td>
-  <td align="center"><b>异步IO</b></td>
+  <td align="center"><b>阻塞I/O</b></td>
+  <td align="center"><b>非阻塞I/O</b></td>
+  <td align="center"><b>多路复用I/O</b></td>
+  <td align="center"><b>信号驱动I/O</b></td>
+  <td align="center"><b>异步I/O</b></td>
 </tr>
 <tr>
   <td align="center">
@@ -146,7 +150,7 @@
 
 #### 基本概念
 
-IO多路复用是指内核一旦发现进程指定的一个或者多个IO条件准备读取，它就通知该进程。IO多路复用适用如下场合：
+I/O多路复用是指内核一旦发现进程指定的一个或者多个IO条件准备读取，它就通知该进程。I/O多路复用适用如下场合：
 
 1. 当客户处理多个描述字时（一般是交互式输入和网络套接口），必须使用I/O复用。
 2. 当一个客户同时处理多个套接口时，而这种情况是可能的，但很少出现。
