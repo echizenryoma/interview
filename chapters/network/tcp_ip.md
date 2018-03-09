@@ -38,7 +38,7 @@
 </tr>
 <tr>
     <td align="center">物理层</td>
-    <td align="center">IEEE 802.1A, IEEE 802.2到IEEE 802.11</td>
+    <td align="center">IEEE 802.1A, IEEE 802.2-IEEE 802.11</td>
 </tr>
 </table>
 
