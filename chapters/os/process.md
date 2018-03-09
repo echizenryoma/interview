@@ -75,6 +75,8 @@
 | **同步** | read/write                          | read/write\(`O_NONBLOCK`\) |
 | **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO            |
 
+#### I/O模型比较
+
 <table>
 <tr>
   <td align="center"><b>阻塞IO</b></td>
