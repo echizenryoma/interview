@@ -70,10 +70,10 @@
 
 * **异步IO（asynchronous I/O）**
 
-|          | **阻塞**                            | **非阻塞**                 |
-| :------: | :---------------------------------: | :------------------------: |
-| **同步** | read/write                          | read/write\(`O_NONBLOCK`\) |
-| **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO            |
+| | **阻塞** | **非阻塞** |
+| :--: | :-------: | :-------: |
+| **同步** | read/write                          | read/write<br />\(`O_NONBLOCK`\) |
+| **异步** | multiplexing I/O<br />\(`select`/`poll`\) | asynchronous IO            |
 
 #### I/O模型比较
 
