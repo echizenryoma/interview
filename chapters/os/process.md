@@ -58,17 +58,17 @@
 
 ### Linux的I/O模型
 
-* **同步模型（synchronous IO）**
+* **同步模型（synchronous I/O）**
 
-* 阻塞IO（bloking IO）
+* 阻塞IO（bloking I/O）
 
-* 非阻塞IO（non-blocking IO）
+* 非阻塞IO（non-blocking I/O）
 
-* 多路复用IO（multiplexing IO）
+* 多路复用IO（multiplexing I/O）
 
-* ~~信号驱动IO（signal-driven IO）~~ 【不常用】
+* ~~信号驱动IO（signal-driven I/O）~~ 【不常用】
 
-* **异步IO（asynchronous IO）**
+* **异步IO（asynchronous I/O）**
 
 |          | **阻塞**                            | **非阻塞**                 |
 | :------: | :---------------------------------: | :------------------------: |
