@@ -167,4 +167,4 @@ static int m;
 
 FIFO会产生Belady异常。
 
-栈式算法无Belady异常，LRU，LFU（最不经常使用），OPT都属于栈式算法。
+栈式算法无Belady异常，LRU，LFU（不常用），OPT都属于栈式算法。
