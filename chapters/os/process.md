@@ -70,6 +70,13 @@
 
 * **异步IO（asynchronous IO）**
 
+|  | **阻塞** | **非阻塞** |
+| :---: | :---: | :---: |
+| **同步** | read/write | read/write\(`O_NONBLOCK`\) |
+| **异步** | multiplexing I/O\(`select`/`poll`\) | asynchronous IO |
+
+
+
 ### IO多路复用（事件驱动）
 
 #### 基本概念
