@@ -2,6 +2,7 @@
   "title": "面试知识整理",
   "language": "zh-hans",
   "plugins": [
-    "-search"
+    "-search",
+    "-sharing"
   ]
 }
