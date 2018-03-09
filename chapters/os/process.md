@@ -79,7 +79,7 @@
 
 <table>
 <tr>
-  <td align="center"><b>阻塞IO</b></td>
+  <td align="center"><b>阻塞I/O</b></td>
   <td align="center"><b>非阻塞IO</b></td>
   <td align="center"><b>多路复用IO</b></td>
   <td align="center"><b>信号驱动IO</b></td>
