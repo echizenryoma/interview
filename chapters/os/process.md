@@ -86,13 +86,13 @@
 <tr>
   <td align="center">
     发起<br />
-      | <br />
-      | <br />
-      | <br />
+     | <br />
+     | <br />
+     | <br />
     阻塞<br />
-      | <br />
-      | <br />
-      ↓ <br />
+     | <br />
+     | <br />
+     ↓ <br />
     完成<br />
   </td>
   <td align="center">
@@ -101,20 +101,20 @@
     …<br />
     检查<br />
     检查<br />
-      | <br />
+     | <br />
     阻塞<br />
-      ↓ <br />
+     ↓ <br />
     完成<br />
   </td>
   <td align="center">
     检查<br />
-      | <br />
+     | <br />
     阻塞<br />
-      ↓ <br />
-  就绪发起<br />
-      | <br />
+     ↓ <br />
+   就绪发起<br />
+     | <br />
     阻塞<br />
-      ↓ <br />
+     ↓ <br />
     完成<br />
   </td>
   <td align="center">
@@ -122,7 +122,7 @@
     <br />
     <br />
     <br />
-    通知发起<br />
+   通知发起<br />
       | <br />
      阻塞<br />
       ↓ <br />
