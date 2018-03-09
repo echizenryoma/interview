@@ -66,7 +66,7 @@
 
 * 多路复用IO（multiplexing I/O）
 
-* ~~信号驱动IO（signal-driven I/O）~~ 【不常用】
+* ~~信号驱动IO（signal-driven I/O）~~ 不常用
 
 * **异步IO（asynchronous I/O）**
 
