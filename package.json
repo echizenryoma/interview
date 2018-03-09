@@ -5,7 +5,7 @@
     "test": "gitbook build"
   },
   "dependencies": {
-    "gitbook": "2.3.1",
-    "gitbook-cli": "2.3.1"
+    "gitbook": "^2.3.1",
+    "gitbook-cli": "^2.3.1"
   }
 }
