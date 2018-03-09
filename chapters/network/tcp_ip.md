@@ -52,9 +52,9 @@
 |             |                    |(listen())   |
 |     SYN_SENT| SYN seq=x          |             |
 |   (connet())+-------------------->SYN_RCVD     |
-|             |                    |      +      |
-|             | SYN seq=y, ACK=x+1 |      |      |
-|  ESTABLISHED<---------------------------+      |
+|             |                    |   +         |
+|             | SYN seq=y, ACK=x+1 |   |         |
+|  ESTABLISHED<------------------------+         |
 |       +      |                   |             |
 |       |      | ACK=y+1           |             |
 |       +-------------------------->ESTABLISHED  |
