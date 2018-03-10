@@ -8,8 +8,8 @@ HTTP（超文本传输协议，HyperText Transfer Protocol）是互联网上应�
 
 总体来说分为以下几个过程:
 
-1. DNS解析
-2. TCP连接
+1. 解析域名
+2. 建立TCP连接
 3. 发送HTTP请求
 4. 服务器处理请求并返回HTTP报文
 5. 浏览器解析渲染页面
