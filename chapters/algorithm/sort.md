@@ -12,11 +12,11 @@
 
 ### 冒泡排序
 
-#### ![](/assets/bubble-sort.gif)
+![](/assets/bubble-sort.gif)
 
 ### 简单选择排序
 
-#### ![](/assets/selection-sort.gif)
+![](/assets/selection-sort.gif)
 
 黄色是已排序的元素。红色是未排序的元素中最小的元素。蓝色是当前元素。
 
