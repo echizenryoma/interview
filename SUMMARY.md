@@ -22,3 +22,6 @@
     * [内存管理](chapters/os/memory.md)
     * [输入输出管理](chapters/os/io.md)
 
+
+* [通用算法](chapters/algorithm/README.md)
+    * [比较排序](chapters/algorithm/sort.md)
