@@ -85,9 +85,7 @@ int compute(void)
 
 对于全局变量来说，为了避免上面提到的重复定义错误，我们可以在一个文件中使用 static，另一个不使用。这样使用 static 的就会使用自己的 `a` 变量，而没有用 static 的会使用全局的 `a` 变量。当然，最好两个都使用 static，避免更多可能的命名冲突。
 
-_注意_：'静态'这个中文翻译实在是有些莫名其妙，给人的感觉像是不可改变的，而实际上 static 跟不可改变没有关系，不可改变的变量使用 const 关键字修饰，注意不要混淆。
-
-_Bonus 部分 —— extern_： extern 是 C 语言中另一个关键字，用来指示变量或函数的定义在别的文件中，使用 extern 可以在多个源文件中共享某个变量，例如[这里](https://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c)的例子。 extern 跟 static 在含义上是“水火不容”的，一个表示不能在别的地方用，一个表示要去别的地方找。如果同时使用的话，有两种情况，一种是先使用 static，后使用 extern ，即：
+`extern`： extern 是 C 语言中另一个关键字，用来指示变量或函数的定义在别的文件中，使用 extern 可以在多个源文件中共享某个变量，例如[这里](https://stackoverflow.com/questions/1433204/how-do-i-use-extern-to-share-variables-between-source-files-in-c)的例子。 extern 跟 static 在含义上是“水火不容”的，一个表示不能在别的地方用，一个表示要去别的地方找。如果同时使用的话，有两种情况，一种是先使用 static，后使用 extern ，即：
 
 ```c
 static int m;
