@@ -1,4 +1,4 @@
 # 数据库
 
-* [MySQL](mysql.md)
-* [Redis](redis.md)
+* [MySQL](/chapters/database/mysql.md)
+* [Redis](/chapters/database/redis.md)
