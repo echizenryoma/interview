@@ -1,3 +1,3 @@
 # 通用算法
 
-* [比较排序](chapters/algorithm/sort.md)
+* [比较排序](sort.md)
