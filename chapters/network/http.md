@@ -72,3 +72,6 @@ HTTP（超文本传输协议，HyperText Transfer Protocol）是互联网上应�
 
 1. 过滤特殊字符
 2. 使用HTTP头指定类型
+
+
+
