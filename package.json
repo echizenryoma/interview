@@ -2,13 +2,10 @@
   "name": "interview",
   "version": "0.1.0",
   "scripts": {
+    "postinstall": "gitbook install",
     "build": "gitbook build"
   },
   "dependencies": {
-    "gitbook": "^2.3.2",
-    "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-fontsettings": "^2.0.0",
-    "gitbook-plugin-highlight": "^2.0.3",
-    "gitbook-plugin-katex": "^1.1.4"
+    "gitbook-cli": "^2.3.2"
   }
 }
