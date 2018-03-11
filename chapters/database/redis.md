@@ -16,7 +16,7 @@
 5. allkeys-random：从数据集（service.db\[i\].dict）中任意选择数据淘汰。
 6. no-enviction：禁止驱逐数据
 
-### 适用的场景
+### 适用场景
 
 * 会话缓存（Session Cache）：最常用就是使用Redis做会话缓存。Redis相比与其他存储的优势在于可持久化。
 * 全页缓存（FPC）：除基本的会话Token之外，Redis还提供简便的FPC平台。即使重启了Redis实例，因为有磁盘的持久化，用户也不会看到页面加载速度下降。
