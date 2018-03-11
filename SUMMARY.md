@@ -25,3 +25,7 @@
 
 * [通用算法](/chapters/algorithm/README.md)
     * [比较排序](/chapters/algorithm/sort.md)
+
+
+* [统计（机器）学习基础](/chapters/statistical_learning/README.md)
+    * [统计学习方法概论](/chapters/statistical_learning/summary.md)
