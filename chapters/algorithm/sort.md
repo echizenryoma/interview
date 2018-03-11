@@ -61,7 +61,7 @@ void quick_sort_recursive(T arr[], int start, int end) {
         left++;
     else
         std::swap(arr[left], arr[end]);
-        
+
     quick_sort_recursive(arr, start, left - 1);
     quick_sort_recursive(arr, left + 1, end);
 }
@@ -72,5 +72,8 @@ void quick_sort(T arr[], int len) {
 }
 ```
 
+#### 算法效率
 
-
+* 快速排序的代码紧凑，常数因子小，局部性良好
+* 归并排序需要额外空间大，是一种稳定快速的排序方法；在外部排序的情况下，比快速排序更好，原因是快速排序依赖的是数据的随机存取速度，而归并是顺序存取，对外存比较友好
+* 堆排序的局部性差导致缓存命中率低
