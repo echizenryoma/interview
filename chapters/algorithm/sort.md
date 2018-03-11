@@ -78,16 +78,15 @@ template<class T>
 void merge_sort_recursive(T arr[],  int start, int end) {
     if (start >= end)
         return;
+    
     T reg = new T[len];
-delete[] reg;
-
+    partition(T, reg, start, end);
+    delete[] reg;
 }
 
 template<class T>
-void merge_sort(T arr[], const int len) {
-    
-    merge_sort_recursive(arr,  0, len - 1);
-    
+void merge_sort(T arr[], const int len) {    
+    merge_sort_recursive(arr, 0, len - 1);    
 }
 ```
 
