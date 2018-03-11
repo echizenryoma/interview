@@ -43,7 +43,7 @@ $$ \mathcal{F}=\{P|P(Y|X)\} $$
 
 ##### 常用的损失函数
 
-1. 0-1损失函数：$$ L(Y,f(x))=\left\{\begin{array}{lc}1&Y\neq f(X)\\0&Y=f(X)\end{array}\right. $$
+1. 0-1损失函数：$$ L(Y,f(x))=I(f(X)\neq Y)=\left\{\begin{array}{lc}1&Y\neq f(X)\\0&Y=f(X)\end{array}\right. $$
 2. 平方损失函数：$$ L(Y,f(x))=(Y-f(X))^2 $$
 3. 绝对损失函数：$$ L(Y,f(x))=|Y-f(X)| $$
 4. 对数损失函数：$$ L(Y,f(x))=-\log {P(Y|X)} $$
