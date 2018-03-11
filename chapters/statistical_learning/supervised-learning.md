@@ -56,17 +56,17 @@ $$ y_{N+1}=\hat{f}(X_{N+1}) $$或$$ y_{N+1}=\arg \max {\hat{P}(y_{N+1}|x_{N+1})}
     <th align="center" colspan="2">根据研究结果的判断</th>
   </tr>
   <tr>
-    <td align="center">拒绝假设<br />（实际上拒绝零假设）</td>
-    <td align="center">接受假设<br />（实际上接受零假设）</td>
+    <td align="center">拒绝假设<br />（实际上拒绝假设）</td>
+    <td align="center">接受假设<br />（实际上接受假设）</td>
   </tr>
   <tr>
     <th align="center" rowspan="2">真实情况</th>
-    <td align="center">假设是真实的<br />（理论上应接受零假设）</td>
+    <td align="center">假设是真实的<br />（理论上应接受假设）</td>
     <td align="center">错误判断<br />阳性判断错误<br />伪阳性<br />第一类错误</td>
     <td align="center">正确判断</td>
   </tr>
   <tr>
-    <td align="center">假设是错误的<br />（理论上不接受零假设）</td>
+    <td align="center">假设是错误的<br />（理论上不接受假设）</td>
     <td align="center">正确判断</td>
     <td align="center">错误判断<br />阴性判断错误<br />伪阴性<br />第二类错误</td>
   </tr>
