@@ -38,3 +38,34 @@ $$x_i$$表示多个输入变量中的第$$i$$个：$$x_i=(x_i^{(1)},x_i^{(2)},\l
 模型：$$Y=\hat{f}(X)$$或$$Y=\hat{P}(Y|X)$$
 
 $$ y_{N+1}=\hat{f}(X_{N+1}) $$或$$ y_{N+1}=\arg \max {\hat{P}(y_{N+1}|x_{N+1})} $$
+
+### 分类问题
+
+督学习从数据中学习一个分类模型或分类决策函数，称为分类器（classifier）。分类器对新的输入进行输出的预测（prediction），称为分类（classification）。分类问题包括学习和分类两个过程。
+
+#### 评价指标
+
+对于二类分类问题常用的评价指标是精确率（precision）与召回率（recall）。
+
+<table>
+  <tr>
+    <th align="center" rowspan="2" colspan="2"></th>
+    <th align="center" colspan="2">根据研究结果的判断</th>
+  </tr>
+  <tr>
+    <td align="center">拒绝假设<br />（实际上拒绝零假设）</td>
+    <td align="center">接受假设<br />（实际上接受零假设）</td>
+  </tr>
+  <tr>
+    <th align="center" rowspan="2">真实情况</th>
+    <td align="center">假设是真实的<br />（理论上应接受零假设）</td>
+    <td align="center">错误判断<br />阳性判断错误<br />伪阳性<br />第一类错误</td>
+    <td align="center">正确判断</td>
+  </tr>
+  <tr>
+    <td align="center">假设是错误的<br />（理论上不接受零假设）</td>
+    <td align="center">正确判断</td>
+    <td align="center">错误判断<br />阴性判断错误<br />伪阴性<br />第二类错误</td>
+  </tr>
+</table>
+
