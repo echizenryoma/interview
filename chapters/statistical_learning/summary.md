@@ -26,8 +26,15 @@
 
 #### 模型
 
-* 决策函数的集合：$$ \mathcal{F}=\{f|Y=f(X)\} $$，参数空间：$$ \mathcal{F}=\{f|Y=f_\theta(X),\theta\in{\mathbf{R}^n}\} $$
-* 条件概率的集合：$$ \mathcal{F}=\{P|P(Y|X)\} $$，参数空间：$$ \mathcal{F}=\{f|P_\theta(Y|X),\theta\in{\mathbf{R}^n}\} $$
+##### 决策函数模型
+
+$$ \mathcal{F}=\{f|Y=f(X)\} $$  
+参数空间：$$ \mathcal{F}=\{f|Y=f_\theta(X),\theta\in{\mathbf{R}^n}\} $$
+
+##### 条件概率模型
+
+$$ \mathcal{F}=\{P|P(Y|X)\} $$  
+参数空间：$$ \mathcal{F}=\{f|P_\theta(Y|X),\theta\in{\mathbf{R}^n}\} $$
 
 #### 策略
 
@@ -51,13 +58,39 @@ $$ R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) $$
 
 #### 结构风险
 
-$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $$位模型的复杂度
+$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $$为模型的复杂度
 
 ### 算法
 
 * 如果最优化问题有显式的解析式，算法比较简单
 * 但通常解析式不存在，就需要数值计算的方法
 
-## 模型评估与模型选择
+### 模型评估
 
-* 训练误差（训练数据集的平均损失）：$$ R_{emp}(\hat f)=\frac{1}{N} \sum_{i=1}^N L(y_i,\hat f(x_i)) $$
+* 训练误差：$$ R_{emp}(\hat f)=\frac{1}{N} \sum_{i=1}^N L(y_i,\hat f(x_i)) $$
+* 测试误差：$$ e_{test}=\frac{1}{N'} \sum_{i=1}^{N'} L(y_i,\hat f(x_i)) $$
+
+#### 过拟合
+
+如果一味追求提高对训练数据的预测能力， 所选揆型的复杂度则往往会比真模型更高这种现象称为**过拟合**。
+
+#### 模型复杂度
+
+![](/assets/var_bias_sample.png)
+
+### 交叉验证
+
+* 简单交叉验证
+* S折交叉验证
+* 留一交叉验证
+
+### 泛化能力
+学习方法的泛化能力（generalization ability）是指由该方法学习到的模型对未知数据的预测能力，是学习方法本质上重要的性质。
+
+#### 泛化误差
+
+$$ R_{exp}(\hat f)=E_p[L(Y,\hat f(X))]=\int_{X\times Y}L(y,\hat f(x))P(x,y)\mathrm{d}x \mathrm{d}y $$
+
+#### 泛化误差上界
+
+$$ R(f)\le \hat R(f) + \varepsilon(d,N,\delta) $$，其中$$ \varepsilon(d,N,\delta)=\sqrt{\frac{1}{2N}(\log d+\log \frac{1}{\delta})} $$
