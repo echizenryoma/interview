@@ -5,6 +5,7 @@
     "build": "gitbook build"
   },
   "dependencies": {
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-katex": "^1.1.4"
   }
 }
