@@ -78,7 +78,8 @@ $$ y_{N+1}=\hat{f}(X_{N+1}) $$或$$ y_{N+1}=\arg \max {\hat{P}(y_{N+1}|x_{N+1})}
 * FP：将负类预测为正类数
 
 精确率$$ P=\frac{TP}{TP+FP} $$
-召回率$$ P=\frac{TP}{TP+FN} $$
+
+召回率$$ R=\frac{TP}{TP+FN} $$
 
 ### 标注问题
 
