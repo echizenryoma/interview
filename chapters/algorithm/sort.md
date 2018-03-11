@@ -33,6 +33,49 @@
 * 插入排序在对几乎已经排好序的数据操作时，效率高，即可以达到线性排序的效率
 * 但插入排序一般来说是低效的，因为插入排序每次只能将数据移动一位
 
+### 归并排序
+
+![](/assets/merge-sort.gif)
+
+#### 算法描述
+
+1. 申请空间，使其大小为两个已经排序序列之和，该空间用来存放合并后的序列
+2. 设定两个指针，最初位置分别为两个已经排序序列的起始位置
+3. 比较两个指针所指向的元素，选择相对小的元素放入到合并空间，并移动指针到下一位置
+4. 重复步骤3直到某一指针到达序列尾
+5. 将另一序列剩下的所有元素直接复制到合并序列尾
+
+#### 算法实现
+
+```cpp
+template<typename T>
+void merge_sort_recursive(T arr[], T reg[], int start, int end) {
+	if (start >= end)
+		return;
+	int len = end - start, mid = (len >> 1) + start;
+	int start1 = start, end1 = mid;
+	int start2 = mid + 1, end2 = end;
+	merge_sort_recursive(arr, reg, start1, end1);
+	merge_sort_recursive(arr, reg, start2, end2);
+	int k = start;
+	while (start1 <= end1 && start2 <= end2)
+		reg[k++] = arr[start1] < arr[start2] ? arr[start1++] : arr[start2++];
+	while (start1 <= end1)
+		reg[k++] = arr[start1++];
+	while (start2 <= end2)
+		reg[k++] = arr[start2++];
+	for (k = start; k <= end; k++)
+		arr[k] = reg[k];
+}
+
+template<class T>
+void merge_sort(T arr[], const int len) {
+	T reg = new T[len];
+	merge_sort_recursive(arr, reg, 0, len - 1);
+	delete[] reg;
+}
+```
+
 ### 快速排序
 
 #### 算法描述
@@ -77,3 +120,6 @@ void quick_sort(T arr[], int len) {
 * 快速排序的代码紧凑，常数因子小，局部性良好
 * 归并排序需要额外空间大，是一种稳定快速的排序方法；在外部排序的情况下，比快速排序更好，原因是快速排序依赖的是数据的随机存取速度，而归并是顺序存取，对外存比较友好
 * 堆排序的局部性差导致缓存命中率低
+
+
+
