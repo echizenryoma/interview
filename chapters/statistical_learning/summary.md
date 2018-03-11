@@ -47,13 +47,17 @@ $$ R_{exp}(f)=E_p[L(Y,f(X))]=\int_{X\times Y}L(y,f(x))P(x,y)\mathrm{d}x \mathrm{
 
 #### 经验风险/经验损失
 
-$$ R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i))$$
+$$ R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) $$
 
 #### 结构风险
 
-$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f)$$位模型的复杂度
+$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $$位模型的复杂度
 
 ### 算法
 
 * 如果最优化问题有显式的解析式，算法比较简单
 * 但通常解析式不存在，就需要数值计算的方法
+
+## 模型评估与模型选择
+
+* 训练误差（训练数据集的平均损失）：$$ R_{emp}(\hat f)=\frac{1}{N} \sum_{i=1}^N L(y_i,\hat f(x_i)) $$
