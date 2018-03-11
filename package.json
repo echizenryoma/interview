@@ -6,6 +6,9 @@
   },
   "dependencies": {
     "gitbook": "^2.3.2",
-    "gitbook-cli": "^2.3.2"
+    "gitbook-cli": "^2.3.2",
+    "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-highlight": "^2.0.3",
+    "gitbook-plugin-katex": "^1.1.4"
   }
 }
