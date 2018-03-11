@@ -1,6 +1,6 @@
 # 前言
 
-本文档使用[Gitbook](https://github.com/GitbookIO/gitbook)制作，[Github 仓库地址](https://github.com/echizenryoma/interview)。
+本文档使用[Gitbook](https://github.com/GitbookIO/gitbook)制作，[Github 仓库地址](https://github.com/echizenryoma/interview)，[在线阅读](https://echizenryoma.gitbooks.io/interview/content)。
 
 所有引用内容版权归原作者所有。
 
