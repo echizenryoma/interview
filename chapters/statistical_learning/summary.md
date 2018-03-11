@@ -36,4 +36,24 @@
 
 ##### 常用的损失函数
 
-1. 0-1损失函数：
+1. 0-1损失函数：$$ L(Y,f(x))=\left\{\begin{array}{lc}1&Y\neq f(X)\\0&Y=f(X)\end{array}\right. $$
+2. 平方损失函数：$$ L(Y,f(x))=(Y-f(X))^2 $$
+3. 绝对损失函数：$$ L(Y,f(x))=|Y-f(X)| $$
+4. 对数损失函数：$$ L(Y,f(x))=-\log {P(Y|X)} $$
+
+#### 风险函数
+
+$$ R_{exp}(f)=E_p[L(Y,f(X))]=\int_{X\times Y}L(y,f(x))P(x,y)\operatorname dx\operatorname dy $$
+
+#### 经验风险/经验损失
+
+$$ R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i))$$
+
+#### 结构风险
+
+$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f)$$位模型的复杂度
+
+### 算法
+
+* 如果最优化问题有显式的解析式，算法比较简单
+* 但通常解析式不存在，就需要数值计算的方法
