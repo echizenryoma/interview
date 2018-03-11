@@ -43,7 +43,7 @@
 
 #### 风险函数
 
-$$ R_{exp}(f)=E_p[L(Y,f(X))]=\int_{X\times Y}L(y,f(x))P(x,y)\operatorname dx\operatorname dy $$
+$$ R_{exp}(f)=E_p[L(Y,f(X))]=\int_{X\times Y}L(y,f(x))P(x,y)\mathrm{d}x \mathrm{d}y $$
 
 #### 经验风险/经验损失
 
