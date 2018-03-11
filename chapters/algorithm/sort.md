@@ -76,6 +76,46 @@ void merge_sort(T arr[], const int len) {
 }
 ```
 
+### 堆排序
+
+#### 算法描述
+
+1. 最大堆调整（Max\_Heapify）：将堆的末端子节点作调整，使得子节点永远小于父节点
+2. 创建最大堆（Build\_Max\_Heap）：将堆所有数据重新排序
+3. 堆排序（HeapSort）：移除位在第一个数据的根节点，并做最大堆调整的递归运算
+
+#### 算法实现
+
+```cpp
+void max_heapify(int arr[], int start, int end) {
+	int dad = start;
+	int son = dad * 2 + 1;
+	while (son <= end) {
+		if (son + 1 <= end && arr[son] < arr[son + 1])
+			son++;
+		if (arr[dad] > arr[son])
+			return;
+		else
+		{
+			swap(arr[dad], arr[son]);
+			dad = son;
+			son = dad * 2 + 1;
+		}
+	}
+}
+
+void heap_sort(int arr[], int len) {
+	//i从最后一个父节点开始调整
+	for (int i = len / 2 - 1; i >= 0; i--)
+		max_heapify(arr, i, len - 1);
+	//先将第一个元素和已经排好的元素前一位做交换，再从新调整(刚调整的元素之前的元素)，直到排序完毕
+	for (int i = len - 1; i > 0; i--) {
+		swap(arr[0], arr[i]);
+		max_heapify(arr, 0, i - 1);
+	}
+}
+```
+
 ### 快速排序
 
 #### 算法描述
@@ -120,6 +160,3 @@ void quick_sort(T arr[], int len) {
 * 快速排序的代码紧凑，常数因子小，局部性良好
 * 归并排序需要额外空间大，是一种稳定快速的排序方法；在外部排序的情况下，比快速排序更好，原因是快速排序依赖的是数据的随机存取速度，而归并是顺序存取，对外存比较友好
 * 堆排序的局部性差导致缓存命中率低
-
-
-
