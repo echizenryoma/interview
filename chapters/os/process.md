@@ -8,9 +8,9 @@
 
 2. 具名管道\(FIFO\)
 
-3. 信号\(Signal\)
+3. 信号\(signal\)
 
-4. 消息\(Message\)队列
+4. 消息\(message\)队列
 
 5. 共享内存\(share memory\)
 
