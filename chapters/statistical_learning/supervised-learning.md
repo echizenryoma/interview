@@ -31,11 +31,10 @@ $$x_i$$表示多个输入变量中的第$$i$$个:$$x_i=(x_i^{(1)},x_i^{(2)},\ldo
 ### 问题的形式化
 
 1. $$T\longrightarrow$$学习系统$$\longrightarrow$$模型
-2. $$x_{N+1}\overset{模型}{\longrightarrow}$$预测系统$$\longrightarrow y_{N+1}$$
+2. $$x_{N+1}\longrightarrow$$预测系统$$\longrightarrow y_{N+1}$$
 
 训练集：$$T=\{(x_1,y_1),(x_2,y_2),\ldots,(x_N,y_N)\}$$
 
 模型：$$Y=\hat{f}(X)$$或$$Y=\hat{P}(Y|X)$$
 
 $$ y_{N+1}=\hat{f}(X_{N+1}) $$或$$ y_{N+1}=\arg {\max_{y_{N+1}} {\hat{P}(y_{N+1}|x_{N+1})}} $$
-
