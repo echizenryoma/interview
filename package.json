@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2",
-    "gitbook-plugin-katex": "^1.1.4"
+    "gitbook-plugin-mathjax": "^2.0.0"
   }
 }
