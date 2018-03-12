@@ -3,9 +3,14 @@
   "language": "zh-hans",
   "plugins": [
     "fontsettings",
+    "github",
     "highlight",
     "katex",
-    "-search",
     "-sharing"
-  ]
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/echizenryoma/interview"
+    }
+  }
 }
