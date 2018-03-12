@@ -4,7 +4,7 @@
   "plugins": [
     "fontsettings",
     "highlight",
-    "mathjax",
+    "katex",
     "-search",
     "-sharing"
   ]
