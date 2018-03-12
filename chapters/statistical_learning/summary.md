@@ -28,12 +28,14 @@
 
 ##### 决策函数模型
 
-$$ \mathcal{F}=\{f|Y=f(X)\} $$  
+$$ \mathcal{F}=\{f|Y=f(X)\} $$
+
 参数空间：$$ \mathcal{F}=\{f|Y=f_\theta(X),\theta\in{\mathbf{R}^n}\} $$
 
 ##### 条件概率模型
 
-$$ \mathcal{F}=\{P|P(Y|X)\} $$  
+$$ \mathcal{F}=\{P|P(Y|X)\} $$
+
 参数空间：$$ \mathcal{F}=\{f|P_\theta(Y|X),\theta\in{\mathbf{R}^n}\} $$
 
 #### 策略
@@ -50,15 +52,23 @@ $$ \mathcal{F}=\{P|P(Y|X)\} $$
 
 #### 风险函数
 
-$$ R_{exp}(f)=E_p[L(Y,f(X))]=\int_{X\times Y}L(y,f(x))P(x,y)\mathrm{d}x \mathrm{d}y $$
+$$
+R_{exp}(f)=E_p[L(Y,f(X))]=\int_{\mathcal{X} \times \mathcal{Y}}L(y,f(x))P(x,y)\mathrm{d}x \mathrm{d}y
+$$
 
 #### 经验风险/经验损失
 
-$$ R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) $$
+$$
+R_{emp}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i))
+$$
 
 #### 结构风险
 
-$$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $$为模型的复杂度
+$$
+R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f)
+$$
+
+其中，$$J(f)$$为模型的复杂度
 
 ### 算法
 
@@ -88,8 +98,17 @@ $$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $
 
 ### 模型评估
 
-* 训练误差：$$ R_{emp}(\hat f)=\frac{1}{N} \sum_{i=1}^N L(y_i,\hat f(x_i)) $$
-* 测试误差：$$ e_{test}=\frac{1}{N'} \sum_{i=1}^{N'} L(y_i,\hat f(x_i)) $$
+* 训练误差：
+
+$$
+R_{emp}(\hat f)=\frac{1}{N} \sum_{i=1}^N L(y_i,\hat f(x_i))
+$$
+
+* 测试误差：
+
+$$
+e_{test}=\frac{1}{N'} \sum_{i=1}^{N'} L(y_i,\hat f(x_i))
+$$
 
 #### 过拟合
 
@@ -110,8 +129,16 @@ $$ R_{srm}(f)=\frac{1}{N} \sum_{i=1}^N L(y_i,f(x_i)) +\lambda J(f) $$，$$J(f) $
 
 #### 泛化误差
 
-$$ R_{exp}(\hat f)=E_p[L(Y,\hat f(X))]=\int_{X\times Y}L(y,\hat f(x))P(x,y)\mathrm{d}x \mathrm{d}y $$
+$$
+R_{exp}(\hat f)=E_p[L(Y,\hat f(X))]=\int_{\mathcal{X} \times \mathcal{Y}}L(y,\hat f(x))P(x,y)\mathrm{d}x \mathrm{d}y
+$$
 
 #### 泛化误差上界
 
-$$ R(f)\le \hat R(f) + \varepsilon(d,N,\delta) $$，其中$$ \varepsilon(d,N,\delta)=\sqrt{\frac{1}{2N}(\log d+\log \frac{1}{\delta})} $$
+$$
+R(f)\le \hat R(f) + \varepsilon(d,N,\delta)
+$$
+
+$$
+\varepsilon(d,N,\delta)=\sqrt{\frac{1}{2N}(\log d+\log \frac{1}{\delta})}
+$$
