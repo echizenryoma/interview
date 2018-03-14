@@ -28,6 +28,7 @@
 
 * [通用算法](/chapters/algorithm/README.md)
     * [比较排序](/chapters/algorithm/sort.md)
+    * [设计模式](/chapters/algorithm/design-pattern.md)
 
 
 * [统计（机器）学习基础](/chapters/statistical_learning/README.md)
