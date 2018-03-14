@@ -44,7 +44,7 @@ TCP协议和UDP协议特性区别：
 ### 三次握手建立连接
 
 1. 客户端向服务器发送一个SYN J
-2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+l
+2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+1
 3. 客户端再向服务器发一个确认ACK K+1
 
 ![](/assets/tcp-3-way-handshake.svg)
