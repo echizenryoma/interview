@@ -44,19 +44,19 @@
 
 #### Linux进程间通信机制
 
-1. 管道/匿名管道\(pipe\)
+1. 管道/匿名管道（pipe）
 
-2. 具名管道\(FIFO\)
+2. 具名管道（FIFO）
 
-3. 信号\(signal\)
+3. 信号（signal）
 
-4. 消息\(message\)队列
+4. 消息队列（message）
 
-5. 共享内存\(share memory\)
+5. 共享内存（share memory）
 
-6. 信号量\(semaphore\)
+6. 信号量（semaphore）
 
-7. 套接字\(socket\)
+7. 套接字（socket）
 
 #### 常见实现
 
