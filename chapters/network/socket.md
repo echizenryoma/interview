@@ -10,9 +10,12 @@ Socket起源于Unix，Unix/Linux基本哲学之一就是“一切皆文件”，
 
 ## 套接字编程基本框架
 
+![基本TCP客户/服务器程序的套接字函数](/assets/socket-framework.svg)
+
 1. `socket()` 创建套接字
 2. `bind()` 分配套接字地址
 3. `listen()` 等待连接请求
 4. `accept()` 允许连接请求
 5. `read()`/`write()` 数据交换
 6. `close()` 关闭连接
+

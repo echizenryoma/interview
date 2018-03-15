@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 绘图1.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="5.1919in" height="6.2041in" viewBox="0 0 373.817 446.695" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st12">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;marker-end:url(#mrkr4-4);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st2 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.090252707581227}
+		.st3 {fill:#000000;font-family:Segoe UI;font-size:0.833336em}
+		.st4 {fill:none;marker-end:url(#mrkr4-4);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st5 {fill:#000000;font-family:Segoe UI;font-size:1.00001em}
+		.st6 {font-family:微软雅黑;font-size:1em}
+		.st7 {marker-end:url(#mrkr4-4);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st8 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st9 {fill:#000000;font-family:微软雅黑;font-size:0.666664em}
+		.st10 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st11 {marker-end:url(#mrkr4-4);marker-start:url(#mrkr4-130);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.25}
+		.st12 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-4" class="st2" refX="-22.16" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-11.08,-11.08) "/>
+		</marker>
+		<marker id="mrkr4-130" class="st2" refX="20.72" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(11.08) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>页-1</title>
+		<g id="shape1-1" transform="translate(37.53,-269.737)">
+			<title>矩形</title>
+			<desc>socket()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="32.43" y="435.91" class="st3">socket()</text>		</g>
+		<g id="shape2-6" transform="translate(37.53,-224.017)">
+			<title>矩形.2</title>
+			<desc>connect()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="29.07" y="435.91" class="st3">connect()</text>		</g>
+		<g id="shape3-10" transform="translate(37.53,-178.297)">
+			<title>矩形.3</title>
+			<desc>write()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="35.72" y="435.91" class="st3">write()</text>		</g>
+		<g id="shape4-14" transform="translate(37.53,-103.84)">
+			<title>矩形.4</title>
+			<desc>read()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="36.75" y="435.91" class="st3">read()</text>		</g>
+		<g id="shape5-18" transform="translate(37.53,-297.352)">
+			<title>工作表.5</title>
+			<desc>TCP客户端</desc>
+			<rect x="0" y="424.018" width="99.2126" height="22.6772" class="st4"/>
+			<text x="21.39" y="439.01" class="st5">TCP<tspan class="st6">客户端</tspan></text>		</g>
+		<g id="shape6-23" transform="translate(80.0497,-269.737)">
+			<title>动态连接线</title>
+			<path d="M7.09 446.7 L7.09 459.31" class="st7"/>
+		</g>
+		<g id="shape7-28" transform="translate(80.0497,-224.017)">
+			<title>动态连接线.7</title>
+			<path d="M7.09 446.7 L7.09 459.31" class="st7"/>
+		</g>
+		<g id="shape8-33" transform="translate(80.0497,-178.297)">
+			<title>动态连接线.8</title>
+			<path d="M7.09 446.7 L7.09 488.05" class="st7"/>
+		</g>
+		<g id="shape9-38" transform="translate(30.4434,-117.622)">
+			<title>动态连接线.9</title>
+			<path d="M7.09 446.7 L-10.44 446.7 L-10.44 372.24 L1.55 372.24" class="st7"/>
+		</g>
+		<g id="shape10-43" transform="translate(37.53,-55.017)">
+			<title>矩形.10</title>
+			<desc>close()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="35.4" y="435.91" class="st3">close()</text>		</g>
+		<g id="shape11-47" transform="translate(80.0497,-103.84)">
+			<title>动态连接线.11</title>
+			<path d="M7.09 446.7 L7.09 462.42" class="st7"/>
+		</g>
+		<g id="shape12-52" transform="translate(235.955,-390.801)">
+			<title>矩形.12</title>
+			<desc>socket()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="32.43" y="435.91" class="st3">socket()</text>		</g>
+		<g id="shape13-56" transform="translate(235.955,-252.753)">
+			<title>矩形.13</title>
+			<desc>accept()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="32.18" y="435.91" class="st3">accept()</text>		</g>
+		<g id="shape14-60" transform="translate(235.955,-178.297)">
+			<title>矩形.14</title>
+			<desc>read()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="36.75" y="435.91" class="st3">read()</text>		</g>
+		<g id="shape15-64" transform="translate(235.955,-103.84)">
+			<title>矩形.15</title>
+			<desc>write()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="35.72" y="435.91" class="st3">write()</text>		</g>
+		<g id="shape16-68" transform="translate(235.955,-417.824)">
+			<title>工作表.16</title>
+			<desc>TCP服务端</desc>
+			<rect x="0" y="424.018" width="99.2126" height="22.6772" class="st4"/>
+			<text x="21.39" y="439.01" class="st5">TCP<tspan class="st6">服务端</tspan></text>		</g>
+		<g id="shape17-73" transform="translate(278.475,-390.801)">
+			<title>动态连接线.17</title>
+			<path d="M7.09 446.7 L7.09 459.61" class="st7"/>
+		</g>
+		<g id="shape18-78" transform="translate(278.475,-252.753)">
+			<title>动态连接线.18</title>
+			<desc>阻塞直到有客户端连接</desc>
+			<path d="M7.09 446.7 L7.09 488.05" class="st7"/>
+			<rect x="-32.9131" y="465.342" width="79.9997" height="9.59985" class="st8"/>
+			<text x="-32.91" y="472.54" class="st9">阻塞直到有客户端连接</text>		</g>
+		<g id="shape19-85" transform="translate(278.475,-178.297)">
+			<title>动态连接线.19</title>
+			<desc>处理请求</desc>
+			<path d="M7.09 446.7 L7.09 488.05" class="st7"/>
+			<rect x="-8.91322" y="465.342" width="31.9999" height="9.59985" class="st10"/>
+			<text x="-8.91" y="472.54" class="st9">处理请求</text>		</g>
+		<g id="shape20-92" transform="translate(328.081,-117.622)">
+			<title>动态连接线.20</title>
+			<path d="M7.09 446.7 L25.74 446.7 L25.74 372.24 L12.63 372.24" class="st7"/>
+		</g>
+		<g id="shape21-97" transform="translate(235.955,-6.19391)">
+			<title>矩形.21</title>
+			<desc>close()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="35.4" y="435.91" class="st3">close()</text>		</g>
+		<g id="shape22-101" transform="translate(278.475,-103.84)">
+			<title>动态连接线.22</title>
+			<path d="M7.09 446.7 L7.09 462.42" class="st7"/>
+		</g>
+		<g id="shape23-106" transform="translate(235.955,-298.769)">
+			<title>矩形.23</title>
+			<desc>bind()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="36.66" y="435.91" class="st3">bind()</text>		</g>
+		<g id="shape24-110" transform="translate(278.475,-298.769)">
+			<title>动态连接线.24</title>
+			<path d="M7.09 446.7 L7.09 459.61" class="st7"/>
+		</g>
+		<g id="shape25-115" transform="translate(235.955,-344.785)">
+			<title>矩形.25</title>
+			<desc>listen()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="34.91" y="435.91" class="st3">listen()</text>		</g>
+		<g id="shape26-119" transform="translate(278.475,-344.785)">
+			<title>动态连接线.26</title>
+			<path d="M7.09 446.7 L7.09 459.61" class="st7"/>
+		</g>
+		<g id="shape29-124" transform="translate(136.743,-237.798)">
+			<title>动态连接线.29</title>
+			<desc>建立连接</desc>
+			<path d="M5.15 447.28 L5.5 447.32 L143.31 463.05" class="st11"/>
+			<rect x="58.4096" y="450.387" width="31.9999" height="9.59985" class="st8"/>
+			<text x="58.41" y="457.59" class="st9">建立连接</text>		</g>
+		<g id="shape30-134" transform="translate(136.743,-184.992)">
+			<title>动态连接线.30</title>
+			<desc>请求数据</desc>
+			<path d="M5.18 439.61 L5.54 439.61 L93.67 439.61" class="st11"/>
+			<rect x="33.6065" y="434.809" width="31.9999" height="9.59985" class="st8"/>
+			<text x="33.61" y="442.01" class="st9">请求数据</text>		</g>
+		<g id="shape31-143" transform="translate(235.955,-110.535)">
+			<title>动态连接线.31</title>
+			<desc>回应数据</desc>
+			<path d="M0 439.61 L-93.67 439.61" class="st7"/>
+			<rect x="-65.6061" y="434.809" width="31.9999" height="9.59985" class="st8"/>
+			<text x="-65.61" y="442.01" class="st9">回应数据</text>		</g>
+		<g id="shape32-150" transform="translate(235.955,-55.017)">
+			<title>矩形.32</title>
+			<desc>read()</desc>
+			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
+			<text x="36.75" y="435.91" class="st3">read()</text>		</g>
+		<g id="shape33-154" transform="translate(278.475,-55.017)">
+			<title>动态连接线.33</title>
+			<path d="M7.09 446.7 L7.09 462.42" class="st7"/>
+		</g>
+		<g id="shape34-159" transform="translate(136.743,-61.7119)">
+			<title>动态连接线.34</title>
+			<desc>结束连接</desc>
+			<path d="M0 439.61 L93.67 439.61" class="st7"/>
+			<rect x="33.6065" y="434.809" width="31.9999" height="9.59985" class="st8"/>
+			<text x="33.61" y="442.01" class="st9">结束连接</text>		</g>
+	</g>
+</svg>
