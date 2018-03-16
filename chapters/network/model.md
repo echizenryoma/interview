@@ -28,7 +28,7 @@
 </tr>
 <tr>
   <td align="center">网络层</td>
-  <td align="center">网际层</td>
+  <td align="center">网络互连层</td>
   <td align="center">IP, ICMP, ARP, RARP, AKP, UUCP</td>
 </tr>
 <tr>
