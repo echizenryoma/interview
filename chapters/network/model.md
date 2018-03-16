@@ -33,7 +33,7 @@
 </tr>
 <tr>
   <td align="center">数据链路层</td>
-  <td align="center" rowspan="2">网络接口</td>
+  <td align="center" rowspan="2">网络接口层</td>
   <td align="center">FDDI, Ethernet, Arpanet, PDN, SLIP, PPP</td>
 </tr>
 <tr>
