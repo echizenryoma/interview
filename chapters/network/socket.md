@@ -1,6 +1,6 @@
 ## 套接字编程基础
 
-### Socket
+### 套接字
 
 Socket是对TCP/IP协议族的一种封装，是应用层与TCP/IP协议族通信的中间软件抽象层。从设计模式的角度看来，Socket其实就是一个门面模式，它把复杂的TCP/IP协议族隐藏在Socket接口后面，对用户来说，一组简单的接口就是全部，让Socket去组织数据，以符合指定的协议。
 
@@ -11,11 +11,3 @@ Socket起源于Unix，Unix/Linux基本哲学之一就是“一切皆文件”，
 ## 套接字编程基本框架
 
 ![基本TCP客户/服务器程序的套接字函数](/assets/socket-framework.svg)
-
-1. `socket()` 创建套接字
-2. `bind()` 分配套接字地址
-3. `listen()` 等待连接请求
-4. `accept()` 允许连接请求
-5. `read()`/`write()` 数据交换
-6. `close()` 关闭连接
-
