@@ -22,7 +22,7 @@ $$\therefore x^2-a=0$$
 
 $$
 \begin{aligned}
-& \therefore x_{{n+1}}=x_{n}-{\frac{f(x_{n})}{f'(x_{n})}}={\frac{x_n}{2}}+{\frac{a}{2x_n}}
+& \therefore x_{n+1}=x_{n}-{\frac{f(x_{n})}{f'(x_{n})}}={\frac{x_n}{2}}+{\frac{a}{2x_n}}
 \end{aligned}
 $$
 
