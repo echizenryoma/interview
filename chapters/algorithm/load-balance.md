@@ -6,4 +6,3 @@
 4. 加权轮询（Weight Round Robin）
 5. 加权随机（Weight Random）
 6. 最小连接数（Least Connections）法
-
