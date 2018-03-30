@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 java.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="10.3825in" height="5.20727in"
+		viewBox="0 0 747.537 374.923" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Segoe UI;font-size:0.75em}
+		.st3 {font-family:Microsoft YaHei UI;font-size:1em}
+		.st4 {font-size:1.33334em}
+		.st5 {marker-end:url(#mrkr14-17);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st7 {fill:#000000;font-family:Segoe UI;font-size:1.00001em}
+		.st8 {marker-end:url(#mrkr14-17);stroke:#000000;stroke-dasharray:5.25,3.75;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend14">
+			<path d="M 3 -1 L 0 0 L 3 1 L 3 -1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr14-17" class="st6" v:arrowType="14" v:arrowSize="2" v:setback="13.08" refX="-13.08" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend14" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="连接线" v:index="0"/>
+		<g id="shape40-1" v:mID="40" v:groupContext="shape" transform="translate(329.619,-340.532)">
+			<title>包(折叠)</title>
+			<desc>&#60;&#60;接口&#62;&#62; Iterable</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="24.13" dy="1.128em" class="st4">Iterable</tspan></text>		</g>
+		<g id="shape57-6" v:mID="57" v:groupContext="shape" transform="translate(329.619,-272.501)">
+			<title>包(折叠).57</title>
+			<desc>&#60;&#60;接口&#62;&#62; Collection</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="17.71" dy="1.128em" class="st4">Collection</tspan></text>		</g>
+		<g id="group58-11" transform="translate(366.682,-306.517)" v:mID="58" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866139761083):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866139761163):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>继承</title>
+			<g id="shape58-12" v:mID="58" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="shape63-18" v:mID="63" v:groupContext="shape" transform="translate(102.847,-204.469)">
+			<title>包(折叠).63</title>
+			<desc>&#60;&#60;接口&#62;&#62; List</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="35.29" dy="1.128em" class="st4">List</tspan></text>		</g>
+		<g id="shape64-23" v:mID="64" v:groupContext="shape" transform="translate(329.619,-204.469)">
+			<title>包(折叠).64</title>
+			<desc>&#60;&#60;接口&#62;&#62; Queue</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="26.56" dy="1.128em" class="st4">Queue</tspan></text>		</g>
+		<g id="shape65-28" v:mID="65" v:groupContext="shape" transform="translate(556.391,-204.469)">
+			<title>包(折叠).65</title>
+			<desc>&#60;&#60;接口&#62;&#62; Set</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="35.79" dy="1.128em" class="st4">Set</tspan></text>		</g>
+		<g id="shape67-33" v:mID="67" v:groupContext="shape" transform="translate(0.375,-136.438)">
+			<title>包(折叠).67</title>
+			<desc>ArrayList</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="21.3" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ArrayList</text>		</g>
+		<g id="group68-36" transform="translate(70.1427,-170.454)" v:mID="68" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.010674212301518):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866139761119):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.010674212301518):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.007086613976111):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.58608506035611):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.58608506035618):32"/>
+			</v:userDefs>
+			<title>接口实现</title>
+			<g id="shape68-37" v:mID="68" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L43.06 346.33" class="st8"/>
+			</g>
+		</g>
+		<g id="shape73-42" v:mID="73" v:groupContext="shape" transform="translate(102.847,-136.438)">
+			<title>包(折叠).73</title>
+			<desc>Vector</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="26.88" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Vector</text>		</g>
+		<g id="group74-45" transform="translate(139.91,-170.454)" v:mID="74" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732275):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(8.8817841970013E-16):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732298):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267948):32"/>
+			</v:userDefs>
+			<title>接口实现.74</title>
+			<g id="shape74-46" v:mID="74" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st8"/>
+			</g>
+		</g>
+		<g id="shape79-51" v:mID="79" v:groupContext="shape" transform="translate(205.32,-136.438)">
+			<title>包(折叠).79</title>
+			<desc>LinkedList</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="17.97" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>LinkedList</text>		</g>
+		<g id="group80-54" transform="translate(249.469,-170.454)" v:mID="80" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(-0.014232283464565):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732284):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.014232283464565):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732271):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(2.6796061726293):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(2.6796061726293):32"/>
+			</v:userDefs>
+			<title>接口实现.80</title>
+			<g id="shape80-55" v:mID="80" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L-59.53 345.28" class="st8"/>
+			</g>
+		</g>
+		<g id="shape85-60" v:mID="85" v:groupContext="shape" transform="translate(102.847,-68.4065)">
+			<title>包(折叠).85</title>
+			<desc>Stack</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="30.12" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Stack</text>		</g>
+		<g id="group86-63" transform="translate(139.91,-102.422)" v:mID="86" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732253):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732262):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>继承.86</title>
+			<g id="shape86-64" v:mID="86" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="shape91-69" v:mID="91" v:groupContext="shape" transform="translate(329.619,-136.438)">
+			<title>包(折叠).91</title>
+			<desc>&#60;&#60;接口&#62;&#62; Deque</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="26.74" dy="1.128em" class="st4">Deque</tspan></text>		</g>
+		<g id="group92-74" transform="translate(293.619,-160.532)" v:mID="92" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.0075000000000003):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.0075000000000003):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+			</v:userDefs>
+			<title>接口实现.92</title>
+			<g id="shape92-75" v:mID="92" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 382.01 L26.19 382.01" class="st8"/>
+			</g>
+		</g>
+		<g id="shape97-80" v:mID="97" v:groupContext="shape" transform="translate(329.619,-68.4065)">
+			<title>包(折叠).97</title>
+			<desc>ArrayDeque</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="12.74" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>ArrayDeque</text>		</g>
+		<g id="group98-83" transform="translate(366.682,-102.422)" v:mID="98" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.007086613976103):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866271172934):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>接口实现.98</title>
+			<g id="shape98-84" v:mID="98" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st8"/>
+			</g>
+		</g>
+		<g id="group103-89" transform="translate(366.682,-170.454)" v:mID="103" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866139761234):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866139761039):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.570796326795):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267948):32"/>
+			</v:userDefs>
+			<title>继承.103</title>
+			<g id="shape103-90" v:mID="103" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="shape108-95" v:mID="108" v:groupContext="shape" transform="translate(453.918,-136.438)">
+			<title>包(折叠).108</title>
+			<desc>HashSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="22.54" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>HashSet</text>		</g>
+		<g id="shape109-98" v:mID="109" v:groupContext="shape" transform="translate(556.391,-136.438)">
+			<title>包(折叠).109</title>
+			<desc>EnumSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="20.8" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>EnumSet</text>		</g>
+		<g id="shape117-101" v:mID="117" v:groupContext="shape" transform="translate(658.863,-136.438)">
+			<title>包(折叠).117</title>
+			<desc>&#60;&#60;接口&#62;&#62; SortedSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="18.3" dy="1.128em" class="st4">SortedSet</tspan></text>		</g>
+		<g id="group118-106" transform="translate(498.068,-170.454)" v:mID="118" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.014232283464565):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732275):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.014232283464569):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732289):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.4619864809605):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.46198648096055):32"/>
+			</v:userDefs>
+			<title>接口实现.118</title>
+			<g id="shape118-107" v:mID="118" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L59.53 345.28" class="st8"/>
+			</g>
+		</g>
+		<g id="group123-112" transform="translate(607.627,-170.454)" v:mID="123" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732275):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(1.7763568394003E-15):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.007086614173228):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267946):32"/>
+			</v:userDefs>
+			<title>接口实现.123</title>
+			<g id="shape123-113" v:mID="123" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M-7.09 374.92 L-7.09 350.72" class="st8"/>
+			</g>
+		</g>
+		<g id="group128-118" transform="translate(677.395,-170.454)" v:mID="128" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(-0.01067421230151):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866139761057):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.010674212301513):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866139761083):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(2.5555075932336):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(2.5555075932336):32"/>
+			</v:userDefs>
+			<title>继承.128</title>
+			<g id="shape128-119" v:mID="128" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L-43.06 346.33" class="st5"/>
+			</g>
+		</g>
+		<g id="shape133-124" v:mID="133" v:groupContext="shape" transform="translate(453.918,-68.4065)">
+			<title>包(折叠).133</title>
+			<desc>LinkedHashSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="5.21" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>LinkedHashSet</text>		</g>
+		<g id="shape134-127" v:mID="134" v:groupContext="shape" transform="translate(658.863,-68.4065)">
+			<title>包(折叠).134</title>
+			<desc>&#60;&#60;接口&#62;&#62; NavigatableSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="4" y="353.45" class="st2" v:langID="2052"><v:paragraph/><v:tabList/>&#60;&#60;<tspan class="st3">接口</tspan>&#62;&#62;<v:newlineChar/><v:paragraph
+						v:horizAlign="1"/><tspan x="4.13" dy="1.128em" class="st4">NavigatableSet</tspan></text>		</g>
+		<g id="shape135-132" v:mID="135" v:groupContext="shape" transform="translate(658.863,-0.375)">
+			<title>包(折叠).135</title>
+			<desc>TreeSet</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="44.1496" cy="357.915" width="88.3" height="34.0157"/>
+			<rect x="0" y="340.907" width="88.2992" height="34.0157" class="st1"/>
+			<text x="24.29" y="361.52" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>TreeSet</text>		</g>
+		<g id="group136-135" transform="translate(695.926,-34.3907)" v:mID="136" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.007086614173228):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732284):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>接口实现.136</title>
+			<g id="shape136-136" v:mID="136" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st8"/>
+			</g>
+		</g>
+		<g id="group141-141" transform="translate(695.926,-102.422)" v:mID="141" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.007086614173228):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732271):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>继承.141</title>
+			<g id="shape141-142" v:mID="141" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="group146-147" transform="translate(505.155,-102.422)" v:mID="146" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866139761101):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.007086613976111):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267946):32"/>
+			</v:userDefs>
+			<title>继承.146</title>
+			<g id="shape146-148" v:mID="146" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M-7.09 374.92 L-7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="group151-153" transform="translate(366.682,-238.485)" v:mID="151" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0070866141732284):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0070866141732289):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(1.5707963267949):32"/>
+			</v:userDefs>
+			<title>继承.151</title>
+			<g id="shape151-154" v:mID="151" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M7.09 374.92 L7.09 350.72" class="st5"/>
+			</g>
+		</g>
+		<g id="group156-159" transform="translate(146.997,-238.485)" v:mID="156" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.03804625984252):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0085604084645676):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.03804625984254):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0085604084645716):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0.2213144423478):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0.22131444234779):32"/>
+			</v:userDefs>
+			<title>继承.156</title>
+			<g id="shape156-160" v:mID="156" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L173.05 335.99" class="st5"/>
+			</g>
+		</g>
+		<g id="group161-165" transform="translate(600.54,-238.485)" v:mID="161" v:groupContext="group" v:layerMember="0">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(-0.038046259673585):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0.0085604084265571):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.038046259673568):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0.0085604084265531):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(2.920278211242):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(2.920278211242):32"/>
+			</v:userDefs>
+			<title>继承.161</title>
+			<g id="shape161-166" v:mID="161" v:groupContext="groupContent" v:layerMember="0">
+				<path d="M0 374.92 L-173.05 335.99" class="st5"/>
+			</g>
+		</g>
+	</g>
+</svg>
