@@ -36,6 +36,7 @@
 
 * [Java](/chapters/java/README.md)
     * [集合框架](/chapters/java/collections-framework.md)
+    * [线程](/chapters/java/thread.md)
 
 
 * [统计（机器）学习基础](/chapters/statistical_learning/README.md)
