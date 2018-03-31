@@ -34,3 +34,9 @@ Java集合框架提供了数据持有对象的方式，提供了对数据集合�
 * `LinkedHashMap`：**保存了记录的插入顺序**，在用Iterator遍历LinkedHashMap时，先得到的记录肯定是先插入的. 也可以在构造时用带参数，按照应用次数排序。在遍历的时候会比HashMap慢，不过有种情况例外，当HashMap容量很大，实际数据较少时，遍历起来可能会比LinkedHashMap慢，因为LinkedHashMap的遍历速度只和实际数据有关，和容量无关，而HashMap的遍历速度和他的容量有关。
 * `TreeMap`：线程不同步，基于**红黑树**（Red-Black tree）的NavigableMap 实现，**能够把它保存的记录根据键排序,默认是按键值的升序排序，也可以指定排序的比较器，当用Iterator 遍历TreeMap时，得到的记录是排过序的。**
 * `HashTable`：线程安全，HashMap的迭代器（Iterator）是`fail-fast`迭代器。**HashTable不能存储NULL的key和value。**
+
+## 工具类
+
+* `Collections`、`Arrays`：集合类的一个工具类，其中提供了一系列静态方法，用于对集合中元素进行排序、搜索以及线程安全等各种操作。
+* `Comparable`、`Comparator`：一般是用于对象的比较来实现排序，两者略有区别。
+    > 两种方式，各有各的特点：使用Comparable方式比较时，我们将比较的规则写入了比较的类型中，其特点是高内聚。但如果哪天这个规则需要修改，那么我们必须修改这个类型的源代码。如果使用Comparator方式比较，那么我们不需要修改比较的类，其特点是易维护，但需要自定义一个比较器，后续比较规则的修改，仅仅是改这个比较器中的代码即可。
