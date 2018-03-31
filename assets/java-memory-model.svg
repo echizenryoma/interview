@@ -1,0 +1,1241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 java-memory-model.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="9.90194in" height="2.50183in"
+		viewBox="0 0 712.94 180.132" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {marker-end:url(#mrkr1-10);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.08695652173913}
+		.st6 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st7 {fill:#000000;font-family:Segoe UI;font-size:0.666664em}
+		.st8 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st9 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend1">
+			<path d="M 1 -1 L 0 0 L 1 1 " style="stroke-linecap:round;stroke-linejoin:round;fill:none"/>
+		</g>
+		<marker id="mrkr1-10" class="st5" v:arrowType="1" v:arrowSize="2" orient="auto" markerUnits="strokeWidth"
+				overflow="visible">
+			<use xlink:href="#lend1" transform="scale(-11.5,-11.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+			<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+			<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="尺寸" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(3.05284,-0.375)">
+			<title>工作表.1</title>
+			<rect v:rectContext="foreign" x="0" y="93.8735" width="709.512" height="86.2583" class="st1"/>
+			<switch>
+				<foreignObject x="0" y="93.8735" width="709.512" height="86.2583"
+						requiredExtensions="http://schemas.microsoft.com/visio/2003/SVGExtensions/">
+					<v:foreignData v:dataType="ole" v:type="33280" v:orgSize="10333" v:data="data:metafile;base64,eNrtemVQnMu29g
+								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
+								909yMoaX/1/h+EfNGT"/>
+				</foreignObject>
+				<!-- Unsupported Record: EmfPlusRecordTypeSetPixelOffsetMode  -->
+				<svg viewBox="0 0 946.01 115.99" height="86.2583" preserveAspectRatio="none" width="709.512" x="0" y="93.8735">
+					<clipPath id="mfid1">
+						<rect width="946.01" height="115.99" id="mfid2"/>
+					</clipPath>
+					<g clip-path="url(#mfid1)">
+						<!-- GetDC -->
+						<mask id="mfid3" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid4" fill-rule="evenodd">
+							<g>
+								<rect width="946" height="116" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid5" fill-rule="evenodd" fill="white" stroke="none"/>
+						<mask id="mfid6" fill-rule="evenodd">
+							<g>
+								<rect width="946" height="116" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid7" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="945" height="115" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid8" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="945" height="115" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid9" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="945" height="115" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid9)">
+							<g fill-rule="evenodd" stroke="none" fill="#2f75b5">
+								<rect width="377" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#c65911">
+								<rect x="376" width="239" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#7b7b7b">
+								<rect x="614" width="332" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#548235">
+								<rect y="23" width="252" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#9bc2e6">
+								<rect x="251" y="23" width="126" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#f4b084">
+								<rect x="376" y="23" width="239" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#c9c9c9">
+								<rect x="614" y="23" width="332" height="24" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#e2efda">
+								<rect y="46" width="55" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#c6e0b4">
+								<rect x="54" y="46" width="78" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#a9d08e">
+								<rect x="131" y="46" width="73" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#548235">
+								<rect x="203" y="46" width="49" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#ddebf7">
+								<rect x="251" y="46" width="72" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#9bc2e6">
+								<rect x="322" y="46" width="55" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#fce4d6">
+								<rect x="376" y="46" width="185" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#f4b084">
+								<rect x="560" y="46" width="55" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#ededed">
+								<rect x="614" y="46" width="137" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#dbdbdb">
+								<rect x="750" y="46" width="136" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#c9c9c9">
+								<rect x="885" y="46" width="61" height="70" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%"
+											x="0,10,19,28,33,37,51,59,63,73,82,91,98,103,111,120,125,129,138,147,156,160" y="0"
+											transform="translate(389,47)" xml:space="preserve">Runtime Constant Pool</text>
+									<text stroke="none" fill="#000000" baseline-shift="-75%"
+											x="0,8,12,20,24,33,37,45,54,63,67,81,89,94,103,112,121,125,136,144,149,157" y="0"
+											transform="translate(390,70)" xml:space="preserve">Field and Method Data</text>
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,19,28,36" y="0"
+											transform="translate(451,93)" xml:space="preserve">Code</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid10" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="24" width="250" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid10)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#ffffff" baseline-shift="-75%"
+											x="0,10,20,30,40,44,55,64,74,83,89,98,104,109,119,129" y="0"
+											transform="translate(62,23)" xml:space="preserve">Yong Generation</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid11" fill-rule="evenodd">
+							<g>
+								<rect x="252" y="24" width="124" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid11)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%"
+											x="0,12,17,27,31,42,51,61,70,76,85,91,96,106,116" y="0" transform="translate(256,23)"
+											xml:space="preserve">Old Generation</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid12" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="375" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid12)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#ffffff" baseline-shift="-75%" x="0,12,21,30,40,44,53,63,72,80,89"
+											y="0" transform="translate(144,0)" xml:space="preserve">Heap Space</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid13" fill-rule="evenodd">
+							<g>
+								<rect x="323" y="47" width="53" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid13)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,14,19,28,36,40" y="0"
+											transform="translate(330,69)" xml:space="preserve">Vitual</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid14" fill-rule="evenodd">
+							<g>
+								<rect x="252" y="47" width="70" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid14)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,8,16,25,34,40,48,57" y="0"
+											transform="translate(259,69)" xml:space="preserve">Tenured</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid15" fill-rule="evenodd">
+							<g>
+								<rect x="204" y="47" width="47" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid15)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#ffffff" baseline-shift="-75%" x="0,8,17,25,34" y="0"
+											transform="translate(211,69)" xml:space="preserve">Eden</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid16" fill-rule="evenodd">
+							<g>
+								<rect x="132" y="47" width="71" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid16)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,8,17" y="0"
+											transform="translate(159,58)" xml:space="preserve">To</text>
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,9,18,24,32,36,45,51,55,64" y="0"
+											transform="translate(135,81)" xml:space="preserve">Survior 1</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid17" fill-rule="evenodd">
+							<g>
+								<rect x="55" y="47" width="76" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid17)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,8,14,23,37" y="0"
+											transform="translate(75,58)" xml:space="preserve">From</text>
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,9,18,24,32,36,45,51,55,64" y="0"
+											transform="translate(61,81)" xml:space="preserve">Survior 0</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid18" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="47" width="53" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid18)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,14,19,28,36,40" y="0"
+											transform="translate(8,69)" xml:space="preserve">Vitual</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid19" fill-rule="evenodd">
+							<g>
+								<rect x="615" y="24" width="330" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid19)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,20,30,39,43,53,62,70,80,89"
+											y="0" transform="translate(736,23)" xml:space="preserve">Code Cache</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid20" fill-rule="evenodd">
+							<g>
+								<rect x="561" y="47" width="53" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid20)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,14,19,28,36,40" y="0"
+											transform="translate(568,69)" xml:space="preserve">Vitual</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid21" fill-rule="evenodd">
+							<g>
+								<rect x="377" y="24" width="237" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid21)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%"
+											x="0,10,19,25,40,49,59,68,78,84,88,99,108,118,127,133,142,148,153,163,173" y="0"
+											transform="translate(409,23)" xml:space="preserve">Permanent Generation</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid22" fill-rule="evenodd">
+							<g>
+								<rect x="377" y="1" width="237" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid22)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#ffffff" baseline-shift="-75%" x="0,15,24,30,40,50,60,64,75,81,90,99"
+											y="0" transform="translate(446,0)" xml:space="preserve">Method Area</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid23" fill-rule="evenodd">
+							<g>
+								<rect x="615" y="70" width="32" height="45" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid23)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,9,19" y="0"
+											transform="translate(622,81)" xml:space="preserve">PC</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid24" fill-rule="evenodd">
+							<g>
+								<rect x="648" y="70" width="50" height="45" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid24)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,9,14,22,29,37" y="0"
+											transform="translate(655,81)" xml:space="preserve">Stack</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid25" fill-rule="evenodd">
+							<g>
+								<rect x="615" y="1" width="330" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid25)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="700"
+										font-size="16">
+									<text stroke="none" fill="#ffffff" baseline-shift="-75%" x="0,13,22,28,33,42,51,55,66,72,81,90"
+											y="0" transform="translate(735,0)" xml:space="preserve">Native Area</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid26" fill-rule="evenodd">
+							<g>
+								<rect x="699" y="70" width="51" height="45" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid26)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,12,20,25,29,37,45" y="0"
+											transform="translate(702,70)" xml:space="preserve">Native</text>
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,9,14,22,29,37" y="0"
+											transform="translate(706,93)" xml:space="preserve">Stack</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid27" fill-rule="evenodd">
+							<g>
+								<rect x="615" y="47" width="135" height="22" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid27)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,8,17,23,31,39,48" y="0"
+											transform="translate(659,46)" xml:space="preserve">Thread</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid28" fill-rule="evenodd">
+							<g>
+								<rect x="751" y="47" width="75" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid28)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,19,33,42,46,50,54,62" y="0"
+											transform="translate(758,69)" xml:space="preserve">Complile</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid29" fill-rule="evenodd">
+							<g>
+								<rect x="827" y="47" width="58" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid29)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,12,20,25,29,37,45" y="0"
+											transform="translate(834,69)" xml:space="preserve">Native</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid30" fill-rule="evenodd">
+							<g>
+								<rect x="886" y="47" width="59" height="68" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid30)">
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#c9c9c9">
+								<g font-family="&#39;Segoe UI&#39;,swiss,sans-serif" font-style="normal" font-weight="400"
+										font-size="16">
+									<text stroke="none" fill="#000000" baseline-shift="-75%" x="0,10,14,20,25,34,42,46" y="0"
+											transform="translate(893,69)" xml:space="preserve">Virtual</text>
+								</g>
+							</g>
+						</g>
+						<mask id="mfid31" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="945" height="115" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid32" fill-rule="evenodd">
+							<g>
+								<rect width="946" height="116" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<g mask="url(#mfid32)">
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect width="1" height="0" stroke="none"/>
+								<rect x="376" width="1" height="0" stroke="none"/>
+								<rect x="614" width="1" height="0" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M1,0 L946,0"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="1" width="945" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="945" width="1" height="0" stroke="none"/>
+								<rect x="251" width="1" height="0" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M1,23 L946,23"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="1" y="23" width="945" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="54" width="1" height="0" stroke="none"/>
+								<rect x="131" width="1" height="0" stroke="none"/>
+								<rect x="203" width="1" height="0" stroke="none"/>
+								<rect x="322" width="1" height="0" stroke="none"/>
+								<rect x="560" width="1" height="0" stroke="none"/>
+								<rect x="750" width="1" height="0" stroke="none"/>
+								<rect x="826" width="1" height="0" stroke="none"/>
+								<rect x="885" width="1" height="0" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M1,46 L946,46"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="1" y="46" width="945" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M377,69 L561,69"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="377" y="69" width="184" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="647" width="1" height="0" stroke="none"/>
+								<rect x="698" width="1" height="0" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M615,69 L751,69"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="615" y="69" width="136" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M377,92 L561,92"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="377" y="92" width="184" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M0,0 L0,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect width="1" height="116" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M54,47 L54,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="54" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M131,47 L131,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="131" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M203,47 L203,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="203" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M251,24 L251,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="251" y="24" width="1" height="92" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M322,47 L322,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="322" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M376,1 L376,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="376" y="1" width="1" height="115" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M560,47 L560,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="560" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M614,1 L614,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="614" y="1" width="1" height="115" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M647,70 L647,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="647" y="70" width="1" height="46" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M698,70 L698,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="698" y="70" width="1" height="46" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M750,47 L750,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="750" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M826,47 L826,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="826" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M885,47 L885,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="885" y="47" width="1" height="69" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M1,115 L946,115"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="1" y="115" width="945" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#000000" stroke-miterlimit="10" fill="#000000">
+								<path fill="none" d="M945,1 L945,116"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#000000">
+								<rect x="945" y="1" width="1" height="115" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M0,116 L0,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M54,116 L54,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="54" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M131,116 L131,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="131" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M203,116 L203,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="203" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M251,116 L251,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="251" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M322,116 L322,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="322" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M376,116 L376,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="376" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M560,116 L560,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="560" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M614,116 L614,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="614" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M647,116 L647,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="647" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M698,116 L698,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="698" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M750,116 L750,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="750" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M826,116 L826,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="826" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M885,116 L885,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="885" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M945,116 L945,117"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="945" y="116" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,0 L947,0"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,23 L947,23"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" y="23" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,46 L947,46"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" y="46" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,69 L947,69"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" y="69" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,92 L947,92"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" y="92" width="1" height="1" stroke="none"/>
+							</g>
+							<g fill-rule="evenodd" stroke="#d4d4d4" stroke-miterlimit="10" fill="#d4d4d4">
+								<path fill="none" d="M946,115 L947,115"/>
+							</g>
+							<g fill-rule="evenodd" stroke="none" fill="#d4d4d4">
+								<rect x="946" y="115" width="1" height="1" stroke="none"/>
+							</g>
+						</g>
+						<mask id="mfid33" fill-rule="evenodd">
+							<g>
+								<rect x="1" y="1" width="945" height="115" fill="white" stroke="none"/>
+							</g>
+						</mask>
+						<mask id="mfid34" fill-rule="evenodd" fill="white" stroke="none"/>
+						<!-- Released DC -->
+					</g>
+				</svg>
+			</switch>
+			<rect v:rectContext="foreign" x="0" y="93.8735" width="709.512" height="86.2583" class="st1"/>
+		</g>
+		<g id="shape46-4" v:mID="46" v:groupContext="shape" v:layerMember="0" transform="translate(43.5883,-86.6333)">
+			<title>水平</title>
+			<desc>--XX:NewSize</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(52.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(2.0472440944882):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(2.0472440944882):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="73.7008" cy="159.766" width="49.71" height="9.60356"/>
+			<path d="M0 158.57 L0 176.13 L0 158.57 ZM147.4 158.57 L147.4 176.13 L147.4 158.57 Z" class="st2"/>
+			<path d="M0 158.57 L0 176.13 L0 158.57" class="st3"/>
+			<path d="M147.4 158.57 L147.4 176.13 L147.4 158.57" class="st3"/>
+			<path d="M73.7 166.57 L0 166.57" class="st4"/>
+			<path d="M73.7 166.57 L147.4 166.57" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="49.947" y="154.966" width="47.5076" height="9.59985" class="st6"/>
+			<text x="49.95" y="162.17" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>--XX:NewSize</text>		</g>
+		<g id="shape47-17" v:mID="47" v:groupContext="shape" v:layerMember="0" transform="translate(3.90323,-112.278)">
+			<title>水平.47</title>
+			<desc>--XX:MaxNewSize</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(66.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(2.5984251968504):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(2.5984251968504):1"/>
+				<v:ud v:nameU="LocEndY" v:prompt="" v:val="VT0(-0.046369201998798):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="93.5433" cy="161.991" width="64.63" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM187.09 160.79 L187.09 179.47 L187.09 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M187.09 160.79 L187.09 179.47 L187.09 160.79" class="st3"/>
+			<path d="M93.54 168.79 L0 168.79" class="st4"/>
+			<path d="M93.54 168.79 L187.09 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="62.3266" y="157.192" width="62.4334" height="9.59985" class="st8"/>
+			<text x="62.33" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>--XX:MaxNewSize</text>		</g>
+		<g id="shape49-29" v:mID="49" v:groupContext="shape" v:layerMember="0" transform="translate(43.6136,-134.584)">
+			<title>水平.49</title>
+			<desc>-Xms</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(69.99)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(2.7555543418072):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(2.7555543418072):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="99.2" cy="161.991" width="20.4" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM198.4 160.79 L198.4 176.13 L198.4 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M198.4 160.79 L198.4 176.13 L198.4 160.79" class="st3"/>
+			<path d="M99.2 168.79 L0 168.79" class="st4"/>
+			<path d="M99.2 168.79 L198.4 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="90.0985" y="157.192" width="18.203" height="9.59985" class="st8"/>
+			<text x="90.1" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-Xms</text>		</g>
+		<g id="shape50-41" v:mID="50" v:groupContext="shape" v:layerMember="0" transform="translate(281.699,-134.584)">
+			<title>水平.50</title>
+			<desc>-XX:PermSize</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(48.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(1.8897637795276):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(1.8897637795276):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="68.0315" cy="161.991" width="48.9" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM136.06 160.79 L136.06 176.13 L136.06 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M136.06 160.79 L136.06 176.13 L136.06 160.79" class="st3"/>
+			<path d="M68.03 168.79 L0 168.79" class="st4"/>
+			<path d="M68.03 168.79 L136.06 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="44.6839" y="157.192" width="46.6952" height="9.59985" class="st6"/>
+			<text x="44.68" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-XX:PermSize</text>		</g>
+		<g id="shape51-53" v:mID="51" v:groupContext="shape" v:layerMember="0" transform="translate(3.90323,-156.89)">
+			<title>水平.51</title>
+			<desc>-Xmx</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(98.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(3.8582677165354):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(3.8582677165354):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="138.898" cy="161.991" width="20.68" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM277.8 160.79 L277.8 176.13 L277.8 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M277.8 160.79 L277.8 176.13 L277.8 160.79" class="st3"/>
+			<path d="M138.9 168.79 L0 168.79" class="st4"/>
+			<path d="M138.9 168.79 L277.8 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="129.657" y="157.192" width="18.4804" height="9.59985" class="st6"/>
+			<text x="129.66" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-Xmx</text>		</g>
+		<g id="shape52-65" v:mID="52" v:groupContext="shape" v:layerMember="0" transform="translate(281.699,-156.89)">
+			<title>水平.52</title>
+			<desc>-XX:MaxPermSize</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(62.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(2.4409448818898):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(2.4409448818898):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="87.874" cy="161.991" width="63.82" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM175.75 160.79 L175.75 176.13 L175.75 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M175.75 160.79 L175.75 176.13 L175.75 160.79" class="st3"/>
+			<path d="M87.87 168.79 L0 168.79" class="st4"/>
+			<path d="M87.87 168.79 L175.75 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="57.0635" y="157.192" width="61.6209" height="9.59985" class="st6"/>
+			<text x="57.06" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-XX:MaxPermSize</text>		</g>
+		<g id="shape54-77" v:mID="54" v:groupContext="shape" v:layerMember="0" transform="translate(485.793,-156.89)">
+			<title>水平.54</title>
+			<desc>-Xss</desc>
+			<v:custProps>
+				<v:cp v:nameU="LPrec" v:lbl="精度" v:type="1" v:format="0;0.0;0.00;0.000;0.0000" v:invis="false" v:langID="2052"
+						v:val="VT4(0.00)"/>
+				<v:cp v:nameU="LUnits" v:lbl="单位" v:type="1" v:format="使用绘图页的单位;英尺-英寸(1&#39;-0&#34;);英尺(1.00&#39;);英寸;英尺(1.00ft);英里;毫米;厘米;米;千米"
+						v:invis="false" v:langID="2052" v:val="VT4(使用绘图页的单位)"/>
+				<v:cp v:nameU="ShowUnits" v:lbl="单位显示" v:type="1" v:format="不显示单位;显示单位" v:invis="false" v:langID="2052"
+						v:val="VT4(不显示单位)"/>
+				<v:cp v:nameU="Extensions" v:lbl="延长线" v:type="1" v:format="&#10;    两者;End only;Begin only;Neither" v:invis="true"
+						v:langID="2052" v:val="VT4(两者)"/>
+				<v:cp v:nameU="Angle" v:lbl="角度" v:type="2" v:invis="false" v:langID="2052" v:val="VT0(0):37"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="AntiScale" v:val="VT0(1):26"/>
+				<v:ud v:nameU="LUnitsFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="FormatString" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LengthText" v:val="VT4(25.00)"/>
+				<v:ud v:nameU="Length" v:val="VT0(0.98425196850394):24"/>
+				<v:ud v:nameU="LPFString" v:prompt="Linear Precision Formatting String" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LPrec" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecInd" v:val="VT0(2):26"/>
+				<v:ud v:nameU="LPrecVal" v:val="VT4(0.00)"/>
+				<v:ud v:nameU="LUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsInd" v:prompt="0=Dwg, 1=Arch, 2=Dec Ft, 3+ = other" v:val="VT0(0):26"/>
+				<v:ud v:nameU="LUnitsVal" v:val="VT4(使用绘图页的单位)"/>
+				<v:ud v:nameU="ShowUnits" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsInd" v:val="VT0(0):26"/>
+				<v:ud v:nameU="ShowUnitsVal" v:val="VT4(不显示单位)"/>
+				<v:ud v:nameU="FeetInch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Feet" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Inch" v:val="VT0(0):26"/>
+				<v:ud v:nameU="InchPrec" v:val="VT0(16):26"/>
+				<v:ud v:nameU="LocEndX" v:val="VT0(0.98425196850394):1"/>
+				<v:ud v:nameU="LocEndY" v:val="VT0(0):1"/>
+				<v:ud v:nameU="visObjectType" v:val="VT0(105):26"/>
+				<v:ud v:nameU="DrawingUnitFactor" v:val="VT0(0):24"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="visLocalFormat" v:val="VT4(0.0)"/>
+				<v:ud v:nameU="LengthText" v:prompt="" v:val="VT4(28.00)"/>
+				<v:ud v:nameU="Length" v:prompt="" v:val="VT0(1.1023622047244):24"/>
+				<v:ud v:nameU="LocEndX" v:prompt="" v:val="VT0(1.1023622047244):1"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(0,0,0,0)" v:tabSpace="42.5197"/>
+			<v:textRect cx="39.685" cy="161.991" width="16.91" height="9.60356"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79 ZM79.37 160.79 L79.37 176.13 L79.37 160.79 Z" class="st2"/>
+			<path d="M0 160.79 L0 176.13 L0 160.79" class="st3"/>
+			<path d="M79.37 160.79 L79.37 176.13 L79.37 160.79" class="st3"/>
+			<path d="M39.69 168.79 L0 168.79" class="st4"/>
+			<path d="M39.69 168.79 L79.37 168.79" class="st4"/>
+			<rect v:rectContext="textBkgnd" x="32.3316" y="157.192" width="14.7068" height="9.59985" class="st6"/>
+			<text x="32.33" y="164.39" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>-Xss</text>		</g>
+	</g>
+</svg>
