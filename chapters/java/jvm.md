@@ -45,6 +45,7 @@ Java类加载器是Java运行时环境（Java Runtime Environment）的一部分
 * `-XX:PermSize`设置永久代最小空间大小（JDK 1.7及以前）
 * `-XX:MaxPermSize`设置永久代最大空间大小（JDK 1.7及以前）
 * `-Xss`设置每个线程的堆栈大小
+* `-XX:MetaspaceSize`设置元空间（元空间取代了永久代）最小空间大小（JDK 1.8及以后）
 * `-XX:MaxMetaspaceSize`设置元空间（元空间取代了永久代）最大空间大小（JDK 1.8及以后）
 
 > 没有直接设置老年代的参数，但是可以设置堆空间大小和新生代空间大小两个参数来间接控制。
