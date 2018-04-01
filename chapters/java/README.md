@@ -4,4 +4,4 @@
 * [线程](/chapters/java/thread.md)
 * [Java虚拟机（JVM）](/chapters/java/jvm.md)
 * [垃圾回收](/chapters/java/gc.md)
-* [设计模式](/chapters/algorithm/design-pattern.md)
+* [设计模式](/chapters/java/design-pattern.md)
