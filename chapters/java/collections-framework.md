@@ -57,3 +57,11 @@ Java集合框架提供了数据持有对象的方式，提供了对数据集合�
 1. 可以说一个是自己完成比较，一个是外部程序实现比较的差别而已。
 2. 用 Comparator 是策略模式（strategy design pattern），就是不改变对象自身，而用一个策略对象（strategy object）来改变它的行为。
 3. 两种方式，各有各的特点：使用`Comparable`方式比较时，我们将比较的规则写入了比较的类型中，其特点是高内聚。但如果哪天这个规则需要修改，那么我们必须修改这个类型的源代码。如果使用`Comparator`方式比较，那么我们不需要修改比较的类，其特点是易维护，但需要自定义一个比较器，后续比较规则的修改，仅仅是改这个比较器中的代码即可。
+
+**答疑二**：`hashCode()`和`equals()`方法的在`HashMap`中的作用。
+
+HashMap使用Key对象的hashCode()和equals()方法去决定key-value对的索引。当我们试着从HashMap中获取值的时候，这些方法也会被用到。如果这些方法没有被正确地实现，在这种情况下，两个不同Key也许会产生相同的hashCode()和equals()输出，HashMap将会认为它们是相同的，然后覆盖它们，而非把它们存储到不同的地方。同样的，所有不允许存储重复数据的集合类都使用hashCode()和equals()去查找重复，所以正确实现它们非常重要。
+
+equals()和hashCode()的实现应该遵循以下规则：
+1. 如果`o1.equals(o2)`，那么`o1.hashCode() == o2.hashCode()`总是为`true`的。
+2. 如果`o1.hashCode() == o2.hashCode()`，并不意味着`o1.equals(o2)`会为`true`。
