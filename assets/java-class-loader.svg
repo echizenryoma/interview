@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- 由 Microsoft Visio, SVG Export 生成 java-class-loader.svg 页-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="1.57814in" height="4.27007in"
+		viewBox="0 0 113.626 307.445" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="2052" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Microsoft YaHei UI;font-size:0.833336em}
+		.st3 {font-family:Segoe UI;font-size:1em}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>页-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(0.12,-259.277)">
+			<title>矩形</title>
+			<desc>启动类加载器 Bootstrap ClassLoader</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="283.421" width="113.39" height="48.0472"/>
+			<rect x="0" y="259.397" width="113.386" height="48.0472" class="st1"/>
+			<text x="26.69" y="280.46" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>启动类加载器<v:newlineChar/><tspan
+						x="7.65" dy="1.204em" class="st3">Bootstrap ClassLoader</tspan></text>		</g>
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(0.12,-172.892)">
+			<title>矩形.2</title>
+			<desc>启动类加载器 ExtClassLoader</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="283.421" width="113.39" height="48.0472"/>
+			<rect x="0" y="259.397" width="113.386" height="48.0472" class="st1"/>
+			<text x="26.69" y="280.46" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>启动类加载器<v:newlineChar/><tspan
+						x="23.96" dy="1.204em" class="st3">ExtClassLoader</tspan></text>		</g>
+		<g id="shape3-9" v:mID="3" v:groupContext="shape" transform="translate(0.12,-86.5058)">
+			<title>矩形.3</title>
+			<desc>应用类加载器 AppClassLoader</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="283.421" width="113.39" height="48.0472"/>
+			<rect x="0" y="259.397" width="113.386" height="48.0472" class="st1"/>
+			<text x="26.69" y="280.46" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>应用类加载器<v:newlineChar/><tspan
+						x="21.37" dy="1.204em" class="st3">AppClassLoader</tspan></text>		</g>
+		<g id="shape5-13" v:mID="5" v:groupContext="shape" transform="translate(0.12,-0.12)">
+			<title>矩形.5</title>
+			<desc>自定义类加载器 User ClassLoader</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="56.6929" cy="283.421" width="113.39" height="48.0472"/>
+			<rect x="0" y="259.397" width="113.386" height="48.0472" class="st1"/>
+			<text x="21.69" y="280.46" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>自定义类加载器<v:newlineChar/><tspan
+						x="19.2" dy="1.204em" class="st3">User ClassLoader</tspan></text>		</g>
+		<g id="shape10-17" v:mID="10" v:groupContext="shape" transform="translate(364.258,220.939) rotate(90)">
+			<title>普通箭头</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ArrowType" v:prompt="" v:val="VT0(2):26"/>
+			</v:userDefs>
+			<path d="M0 307.44 L11.34 296.11 L11.34 301.78 L38.34 301.78 L38.34 307.44 L38.34 313.11 L11.34 313.11 L11.34 318.78
+						 L0 307.44 Z" class="st1"/>
+		</g>
+		<g id="shape11-19" v:mID="11" v:groupContext="shape" transform="translate(364.258,134.553) rotate(90)">
+			<title>普通箭头.11</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ArrowType" v:prompt="" v:val="VT0(2):26"/>
+			</v:userDefs>
+			<path d="M0 307.44 L11.34 296.11 L11.34 301.78 L38.34 301.78 L38.34 307.44 L38.34 313.11 L11.34 313.11 L11.34 318.78
+						 L0 307.44 Z" class="st1"/>
+		</g>
+		<g id="shape12-21" v:mID="12" v:groupContext="shape" transform="translate(364.258,48.1672) rotate(90)">
+			<title>普通箭头.12</title>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+				<v:ud v:nameU="ArrowType" v:prompt="" v:val="VT0(2):26"/>
+			</v:userDefs>
+			<path d="M0 307.44 L11.34 296.11 L11.34 301.78 L38.34 301.78 L38.34 307.44 L38.34 313.11 L11.34 313.11 L11.34 318.78
+						 L0 307.44 Z" class="st1"/>
+		</g>
+	</g>
+</svg>
