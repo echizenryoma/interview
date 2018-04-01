@@ -24,7 +24,7 @@ Java虚拟机没有指令寄存器，其指令集使用Java栈来存储中间数
 * `扩展类加载器（Extension ClassLoader）`该加载器由`sun.misc.Launcher$ExtClassLoader`实现，它负责加载`$JAVA_HOME\jre\lib\ext`目录中，或者由`java.ext.dirs`系统变量指定的路径中的所有类库（如javax.*开头的类），开发者可以直接使用扩展类加载器。
 * `应用程序类加载器（Application ClassLoader）`该类加载器由`sun.misc.Launcher$AppClassLoader`来实现，它负责加载用户类路径（`ClassPath`）所指定的类，开发者可以直接使用该类加载器
 
-#### 步骤
+#### 装载步骤
 
 类装载器子系统除了要定位和导入二进制class文件外，还必须负责验证被导入类的正确性，为变量分配初始化内存，以及帮助解析符号引用。这些动作必须严格按一下顺序完成：
 
