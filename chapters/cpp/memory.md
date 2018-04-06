@@ -1,4 +1,4 @@
-## 内存管理
+## 内存分配
 
 ### `new/delete`和`malloc/free`
 

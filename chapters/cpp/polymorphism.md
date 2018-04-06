@@ -38,6 +38,40 @@ private:
 
 动态绑定最常见的用法就是声明基类的指针，利用该指针指向任意一个子类对象，调用相应的虚函数，可以根据指向的子类的不同而实现不同的方法。
 
+类A是基类，类B继承类A，类C又继承类B。
 
+```cpp
+class A {
+public:
+    virtual void vfunc1();
+    virtual void vfunc2();
+    void func1();
+    void func2();
+private:
+    int m_data1, m_data2;
+};
 
+class B : public A {
+public:
+    virtual void vfunc1();
+    void func1();
+private:
+    int m_data3;
+};
 
+class C: public B {
+public:
+    virtual void vfunc2();
+    void func2();
+private:
+    int m_data1, m_data4;
+};
+```
+
+![](/assets/cpp-dynamic-binding.svg)
+
+#### 动态绑定的必要条件
+
+1. 通过指针来调用函数
+2. 指针upcast向上转型
+3. 调用的是虚函数
