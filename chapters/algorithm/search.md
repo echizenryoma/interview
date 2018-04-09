@@ -2,7 +2,7 @@
 
 ### 二分搜索算法
 
-#### 算法实现
+#### 递归实现
 
 ```c
 int binary_search(const int arr[], int start, int end, int khey) {
@@ -16,6 +16,29 @@ int binary_search(const int arr[], int start, int end, int khey) {
         return binary_search(arr, mid + 1, end, khey);
     else
         return mid;
+}
+```
+
+#### 循环实现
+
+```c
+int binary_search(const int arr[], int start, int end, int khey) {
+    int ret = -1;
+    
+	int mid;
+	while (start <= end) {
+		mid = start + (end - start) / 2;
+		if (arr[mid] < khey)
+			start = mid + 1;
+		else if (arr[mid] > khey)
+			end = mid - 1;
+		else {
+			ret = mid;  
+            break;
+        }
+	}
+	
+	return ret;
 }
 ```
 
