@@ -138,18 +138,18 @@
 			<title>动态连接线.22</title>
 			<path d="M7.09 446.7 L7.09 462.42" class="st7"/>
 		</g>
-		<g id="shape23-106" transform="translate(235.955,-298.769)">
+		<g id="shape25-115" transform="translate(235.955,-344.785)">
 			<title>矩形.23</title>
-			<desc>bind()</desc>
+			<desc>listen()</desc>
 			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
 			<text x="36.66" y="435.91" class="st3">bind()</text>		</g>
 		<g id="shape24-110" transform="translate(278.475,-298.769)">
 			<title>动态连接线.24</title>
 			<path d="M7.09 446.7 L7.09 459.61" class="st7"/>
 		</g>
-		<g id="shape25-115" transform="translate(235.955,-344.785)">
+		<g id="shape23-106" transform="translate(235.955,-298.769)">
 			<title>矩形.25</title>
-			<desc>listen()</desc>
+			<desc>bind()</desc>
 			<rect x="0" y="419.132" width="99.2126" height="27.5632" class="st1"/>
 			<text x="34.91" y="435.91" class="st3">listen()</text>		</g>
 		<g id="shape26-119" transform="translate(278.475,-344.785)">
