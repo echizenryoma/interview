@@ -36,6 +36,3 @@
 2. `tracert`
 3. `telnet`
 4. `netstat`
-
-
-

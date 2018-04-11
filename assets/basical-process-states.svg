@@ -136,14 +136,14 @@
 			<text x="-58.02" y="238.52" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>等待事件</text>		</g>
 		<g id="shape15-49" v:mID="15" v:groupContext="shape" transform="translate(120.096,-168.64)">
 			<title>椭圆形.15</title>
-			<desc>运行态</desc>
+			<desc>终止态</desc>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="35.9291" cy="185.555" width="62.88" height="29.3917"/>
 			<path d="M0 185.55 A35.9291 16.7953 0 1 1 71.86 185.55 A35.9291 16.7953 0 1 1 0 185.55 Z" class="st1"/>
-			<text x="20.93" y="188.6" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>运行态</text>		</g>
+			<text x="20.93" y="188.6" class="st2" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>终止态</text>		</g>
 		<g id="shape16-52" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(148.939,-117.97)">
 			<title>动态连接线.16</title>
 			<desc>释放</desc>
