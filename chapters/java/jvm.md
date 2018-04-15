@@ -50,6 +50,7 @@ Java虚拟机没有指令寄存器，其指令集使用Java栈来存储中间数
 * `-XX:MetaspaceSize`设置元空间最小空间大小（JDK 1.8及以后）
 * `-XX:MaxMetaspaceSize`设置元空间最大空间大小（JDK 1.8及以后）
 * `-Xss`设置每个线程的堆栈大小
+* `-XX:MaxTenuringThreshold`新生代中对象存活次数，默认为15次
 
 ##### 注意
 
