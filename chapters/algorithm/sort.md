@@ -145,12 +145,12 @@ template <class T>
 void quick_sort_recursive(T arr[], int start, int end) {
     if (start >= end)
         return;
-    T mid = arr[end];
+    T pivot = arr[end];
     int left = start, right = end - 1;
     while (left < right) {
-        while (arr[left] < mid && left < right)
+        while (arr[left] < pivot && left < right)
             left++;
-        while (arr[right] >= mid && left < right)
+        while (arr[right] >= pivot && left < right)
             right--;
         std::swap(arr[left], arr[right]);
     }
