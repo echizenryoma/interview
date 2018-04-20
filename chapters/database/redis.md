@@ -77,8 +77,8 @@ struct dictEntry{
    //值
    union{
       void *val;
-      uint64_tu64;
-      int64_ts64;
+      uint64_t u64;
+      int64_t s64;
    }
    
    struct dictEntry *next;
