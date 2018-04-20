@@ -44,21 +44,12 @@ struct list{
     
     //链表长度
     unsigned long len;
-    
-    //节点值复制函数
-    void *(*dup) (void *ptr);
-    
-    //节点值释放函数
-    void (*free) (void *ptr);
-    
-    //节点值对比函数
-    int (*match)(void *ptr, void *key);
 };
 ```
 
 #### 字典
 
-#### 哈希表
+##### 哈希表
 
 ```c
 struct dictht {
@@ -76,7 +67,7 @@ struct dictht {
 }
 ```
 
-#### 哈希表节点
+##### 哈希表节点
 
 ```c
 struct dictEntry{
@@ -94,7 +85,7 @@ struct dictEntry{
 }
 ```
 
-#### 字典
+##### 字典
 
 ```c
 struct dict {
