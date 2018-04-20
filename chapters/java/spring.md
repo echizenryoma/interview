@@ -92,6 +92,22 @@ Spring切面可以应用五种类型的通知：
 2. `@Autowired`用于有值设值方法、非设值方法、构造方法和变量
 3. `@Qualifier`该注解和`@Autowired`注解搭配使用，用于消除特定`bean`自动装配的歧义。
 
+### 自动装配模式
+
+1. `no`是`Spring`的默认设置，在该设置下自动装配是关闭的
+2. `byName`
+3. `byType`
+4. `constructor`仅仅适用于与有构造器相同参数的`bean`
+5. `autodetect`该模式自动探测使用构造器自动装配或者`byType`自动装配
+
+### 设计模式
+
+1. 代理模式：在面向切面编程中使用比较多
+2. 单例模式：在`Spring`配置文件中定义的`bean`默认为单例模式
+3. 模板方法：用来解决代码重复的问题。比如：`RestTemplate`、`JmsTemplate`、`JpaTemplate`
+4. 依赖注入：贯穿于`BeanFactory`和`ApplicationContext`接口的核心理念
+5. 工厂模式：`BeanFactory`用来创建对象的实例
+
 **答疑一**：Spring框架中的单例Bean是线程安全的吗?
 
 Spring框架中的单例bean**不是**线程安全的。
