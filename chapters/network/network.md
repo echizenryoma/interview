@@ -2,7 +2,7 @@
 
 ### IPv4协议头部
 
-<table style="td th { text-align: center; }">
+<table style="tr th { text-align: center; }; td { align: center; }">
 <tbody>
 <tr>
 <th>位偏移</th>
