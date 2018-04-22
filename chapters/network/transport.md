@@ -15,21 +15,18 @@
 <table>
 <tbody style="text-align: center">
 <tr>
-<th>偏移</th>
-<th>字节</th>
-<th colspan="8">0</th>
-<th colspan="8">1</th>
-<th colspan="8">2</th>
-<th colspan="8">3</th>
+<th>位偏移</th>
+<th colspan="8">0-7</th>
+<th colspan="8">8-15</th>
+<th colspan="8">16-23</th>
+<th colspan="8">24-31</th>
 </tr>
 <tr>
-<th>0</th>
 <th>0</th>
 <td colspan="16">来源连接端口</td>
 <td colspan="16">目的连接端口</td>
 </tr>
 <tr>
-<th>4</th>
 <th>32</th>
 <td colspan="16">报文长度</td>
 <td colspan="16">校验和</td>
