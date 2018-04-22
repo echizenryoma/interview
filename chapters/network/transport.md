@@ -12,7 +12,7 @@
 
 ### UDP协议首部
 
-<tbody>
+<tbody style="text-align: center">
 <tr>
 <th>偏移</th>
 <th>字节</th>
