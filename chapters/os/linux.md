@@ -10,6 +10,7 @@
 6. `cp`：Copy
 7. `rm`：Remove
 8. `mv`：Move
+9. `scp`：用于远程复制文件
 
 ### 内容查看
 
