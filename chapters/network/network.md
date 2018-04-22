@@ -2,7 +2,7 @@
 
 ### IP协议
 
-<table style="text-align: center;">
+<table style="tr th { text-align: center;}">
 <tbody><tr>
 <th>位偏移</th>
 <th colspan="4">4–7</th>
