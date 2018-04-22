@@ -8,10 +8,68 @@
 
 ### UDP
 
-用户数据报协议（User Datagram Protocol）：无连接的，数据传输的单位是用户数据报，不保证提供可靠的交付，只能提供“尽最大努力交付”。
+用户数据报协议（User Datagram Protocol）是无连接的，数据传输的单位是用户数据报，不保证提供可靠的交付，只能提供“尽最大努力交付”。
 
-1. UDP是一种无连接协议。
-2. UDP不是可靠的，不能保证最终到达它们的目的地，不保证各个数据报的先后顺序跨网络保持不变， 也不保证每个数据报只到达一次
+### UDP协议首部
+
+<tbody>
+<tr>
+<th>偏移</th>
+<th>字节</th>
+<th colspan="8">0</th>
+<th colspan="8">1</th>
+<th colspan="8">2</th>
+<th colspan="8">3</th>
+</tr>
+<tr>
+<th>字节</th>
+<th><tt>位</tt></th>
+<th><tt>0</tt></th>
+<th><tt>1</tt></th>
+<th><tt>2</tt></th>
+<th><tt>3</tt></th>
+<th><tt>4</tt></th>
+<th><tt>5</tt></th>
+<th><tt>6</tt></th>
+<th><tt>7</tt></th>
+<th><tt>8</tt></th>
+<th><tt>9</tt></th>
+<th><tt>10</tt></th>
+<th><tt>11</tt></th>
+<th><tt>12</tt></th>
+<th><tt>13</tt></th>
+<th><tt>14</tt></th>
+<th><tt>15</tt></th>
+<th><tt>16</tt></th>
+<th><tt>17</tt></th>
+<th><tt>18</tt></th>
+<th><tt>19</tt></th>
+<th><tt>20</tt></th>
+<th><tt>21</tt></th>
+<th><tt>22</tt></th>
+<th><tt>23</tt></th>
+<th><tt>24</tt></th>
+<th><tt>25</tt></th>
+<th><tt>26</tt></th>
+<th><tt>27</tt></th>
+<th><tt>28</tt></th>
+<th><tt>29</tt></th>
+<th><tt>30</tt></th>
+<th><tt>31</tt></th>
+</tr>
+<tr>
+<th>0</th>
+<th><tt>0</tt></th>
+<td colspan="16">来源连接端口</td>
+<td colspan="16">目的连接端口</td>
+</tr>
+<tr>
+<th>4</th>
+<th><tt>32</tt></th>
+<td colspan="16">报文长度</td>
+<td colspan="16">校验和</td>
+</tr>
+</tbody>
 
 ### TCP
 
