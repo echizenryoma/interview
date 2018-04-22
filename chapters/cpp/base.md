@@ -1,6 +1,6 @@
 ## C++基础
 
-### `static`
+### static
 
 1. `全局静态变量`：只在当前文件中可见（`internal linkage`）
 2. `局部静态变量`：只在此函数内可见（同时，在多次函数调用中，变量的值不会丢失）
@@ -14,18 +14,22 @@ class A
 {  
 public:  
     static int a;
-   A(){}
+    A(){}
 };
 
 int A::a = 7;
 ```
+
 ```cpp
 class A
 {  
 public:  
-    const static int a=3; // here initialize  
+    const static int a = 7;
     A(){}  
-};  
+};
 ```
+
 ### extern "C"
+
+
 
