@@ -5,8 +5,8 @@
 <table style="tr th { text-align: center;}">
 <tbody><tr>
 <th>位偏移</th>
-<th colspan="4">4–7</th>
 <th colspan="4">0–3</th>
+<th colspan="4">4–7</th>
 <th colspan="6">8–13</th>
 <th colspan="2">14-15</th>
 <th colspan="3">16–18</th>
