@@ -2,9 +2,9 @@
 
 ### IP协议
 
-<table>
+<table style="text-align: center;">
 <tbody><tr>
-<th width="4%">位偏移</th>
+<th>位偏移</th>
 <th colspan="4">4–7</th>
 <th colspan="4">0–3</th>
 <th colspan="6">8–13</th>
