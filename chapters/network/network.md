@@ -1,6 +1,6 @@
 ## 网络层
 
-### IP协议
+### IPv4协议头部
 
 <table style="tr th { text-align: center;}">
 <tbody><tr>
@@ -45,14 +45,6 @@
 <td colspan="32">选项（如首部长度&gt;5）</td>
 </tr>
 <tr>
-<th>160<br>
-or<br>
-192+</th>
-<td colspan="32">&nbsp;<br>
-数据<br>
-&nbsp;</td>
-</tr>
-</tbody></table>
 
 ### IPv4地址分类
 
