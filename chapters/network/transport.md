@@ -12,6 +12,7 @@
 
 ### UDP报头
 
+<table>
 <tbody style="text-align: center">
 <tr>
 <th>偏移</th>
@@ -69,7 +70,7 @@
 <td colspan="16">报文长度</td>
 <td colspan="16">校验和</td>
 </tr>
-</tbody>
+</tbody></table>
 
 ### TCP
 
