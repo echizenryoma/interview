@@ -1,5 +1,59 @@
 ## 网络层
 
+### IP协议
+
+<table>
+<tbody><tr>
+<th width="4%">位偏移</th>
+<th colspan="4">4–7</th>
+<th colspan="4">0–3</th>
+<th colspan="6">8–13</th>
+<th colspan="2">14-15</th>
+<th colspan="3">16–18</th>
+<th colspan="13">19–31</th>
+</tr>
+<tr>
+<th>0</th>
+<td colspan="4">版本</td>
+<td colspan="4">首部长度</td>
+<td colspan="6">区分服务</td>
+<td colspan="2">显式拥塞通告</td>
+<td colspan="16">全长</td>
+</tr>
+<tr>
+<th>32</th>
+<td colspan="16">标识符</td>
+<td colspan="3">标志</td>
+<td colspan="13">分片偏移</td>
+</tr>
+<tr>
+<th>64</th>
+<td colspan="8">存活时间</td>
+<td colspan="8">协议</td>
+<td colspan="16">首部检验和</td>
+</tr>
+<tr>
+<th>96</th>
+<td colspan="32">源IP地址</td>
+</tr>
+<tr>
+<th>128</th>
+<td colspan="32">目的IP地址</td>
+</tr>
+<tr>
+<th>160</th>
+<td colspan="32">选项（如首部长度&gt;5）</td>
+</tr>
+<tr>
+<th>160<br>
+or<br>
+192+</th>
+<td colspan="32">&nbsp;<br>
+数据<br>
+&nbsp;</td>
+</tr>
+</tbody></table>
+
 ### IPv4地址分类
 
 |  | **前缀（二进制）** | **掩码位数** |**网络地址位数** | **主机地址位数** |
