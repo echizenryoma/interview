@@ -44,6 +44,7 @@
 <th>160</th>
 <td colspan="32">选项（如首部长度&gt;5）</td>
 </tr>
+</tbody></table>
 
 ### IPv4地址分类
 
