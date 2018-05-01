@@ -41,8 +41,8 @@
 
 <table style="text-align: center;">
 <tbody><tr>
-<th>偏移</th>
-<th colspan="4">位0–3</th>
+<th>位偏移</th>
+<th colspan="4">0–3</th>
 <th colspan="3">4–7</th>
 <th colspan="9">8–15</th>
 <th colspan="16">16–31</th>
