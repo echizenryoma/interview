@@ -37,6 +37,53 @@
 
 传输控制协议（Transmission Control Protocol）：面向连接的，数据传输的单位是报文段，能够提供可靠的交付。
 
+### 数据包结构
+
+<table style="text-align: center;">
+<tbody><tr>
+<th>偏移</th>
+<th colspan="4">位0–3</th>
+<th colspan="3"4–7</th>
+<th colspan="9">8–15</th>
+<th colspan="16">16–31</th>
+</tr>
+<tr>
+<th>0</th>
+<td colspan="16">来源连接端口</td>
+<td colspan="16">目的连接端口</td>
+</tr>
+<tr>
+<th>32</th>
+<td colspan="32">序列号码</td>
+</tr>
+<tr>
+<th>64</th>
+<td colspan="32">确认号码</td>
+</tr>
+<tr>
+<th>96</th>
+<td colspan="4">报头长度</td>
+<td colspan="6">保留</td>
+<td colspan="6">标志符</td>
+<td colspan="16">窗口大小</td>
+</tr>
+<tr>
+<th>128</th>
+<td colspan="16">校验和</td>
+<td colspan="16">紧急指针</td>
+</tr>
+<tr>
+<th>160</th>
+<td colspan="32">选项字段</td>
+</tr>
+<tr>
+<th>160/192+</th>
+<td colspan="32">&nbsp;<br>
+数据<br>
+&nbsp;</td>
+</tr>
+</tbody></table>
+
 1. TCP是一种面向连接的协议，提供客户与服务器的连接。
 2. TCP提供可靠性。当使用TCP向另一端发送数据时， 它要求对端返回一个确认。如果没有收到确认，TCP自动重传数据并等待更长时间。在数次重传失败后，TCP才放弃。
 3. TCP通过给所发送数据的每一个字节关联一个序列号进行排序。UDP 提供不可靠的数据报传送不提供确认、 序列号、 超时重传等机制。
