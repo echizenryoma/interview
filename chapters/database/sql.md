@@ -30,6 +30,46 @@ DROP TABLE <表名> [RESTRICT | CASCADE]
 * `RESTRICT`：如果存真依赖该表的对象，则此表不能被删除
 * `CASCADE`：在删除该表的同时，相关的依赖对象都将被一起删除
 
+### 索引
+
+#### 普通索引
+
+```sql
+ALTER TABLE <表名> ADD INDEX <索引名> (<列名>)
+```
+
+```sql
+CREATE INDEX <表名> ON <表名> (<列名>)
+```
+
+#### 唯一索引
+
+```sql
+ALTER TABLE <表名> ADD UNIQUE <索引名> (<列名>)
+```
+
+```sql
+CREATE UNIQUE INDEX <表名> ON <表名> (<列名>)
+```
+
+#### 主键索引
+
+```sql
+ALTER TABLE <表名> ADD PRIMARY KEY (<列名>)
+```
+
+#### 全文索引
+
+```sql
+ALTER TABLE <表名> ADD FULLTEXT (<列名>)
+```
+
+#### 组合索引
+
+```sql
+ALTER TABLE <表名> ADD INDEX <索引名> (<列名>, <列名>, <列名>, ...)
+```
+
 ### 优化
 
 #### 基本原则
