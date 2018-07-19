@@ -20,7 +20,6 @@
   * [MySQL](/chapters/database/mysql.md)
   * [NoSQL](/chapters/database/nosql.md)
   * [Redis](/chapters/database/redis.md)
-  * [GFS](chapters/database/gfs.md)
 
 ---
 
@@ -29,6 +28,7 @@
   * [进程管理](/chapters/os/process.md)
   * [内存管理](/chapters/os/memory.md)
   * [输入输出管理](/chapters/os/io.md)
+  * [GFS](chapters/os/gfs.md)
   * [Linux常用命令](/chapters/os/linux.md)
 
 ---
