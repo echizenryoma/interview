@@ -6,10 +6,13 @@ NoSQL是对不同于传统的关系数据库的数据库管理系统的统称。
 
 ### 分类
 
-| **类型** | **代表** |
-| :---: | :---: |
-| 列（Column） | Accumulo, Cassandra, Druid, **HBase**, Vertica |
-| 文档（Document） | Apache CouchDB, ArangoDB, BaseX, Clusterpoint, Couchbase, Cosmos DB, MarkLogic, **MongoDB**, OrientDB, Qizx, RethinkDB |
-| 键-值（Key-value） | Aerospike, Apache Ignite, ArangoDB, Couchbase, Dynamo, FoundationDB, InfinityDB, MemcacheDB, MUMPS, Oracle NoSQL Database, OrientDB, **Redis**, Riak, Berkeley DB, ZooKeeper |
-| 图形关系（Graph） | AllegroGraph, ArangoDB, InfiniteGraph, Apache Giraph, MarkLogic, Neo4J, OrientDB, Virtuoso |
-| 多模型数据（Multi-model） | Apache Ignite, ArangoDB, Couchbase, FoundationDB, InfinityDB, MarkLogic, OrientDB |
+| **类型** | **代表** | **应用场景** | **优点** | **缺点** |
+| :---: | :---: | :---: | :---: | :---: |
+| 列（Column） | **HBase** | 分布式文件系统 | 查找速度快，可扩展性强，更容易进行分布式扩展 | 功能相对局限 |
+| 文档（Document） | **MongoDB** | Web应用 | 数据结构要求不严格，表结构可变，不需要像关系型数据库一样需要预先定义表结构 | 查询性能不高，而且缺乏统一的查询语法 |
+| 键-值（Key-value） | **Redis** | 内容缓存，主要用于处理大量数据的高访问负载，也用于一些日志系统等等 | 查找速度快 | 数据无结构化，通常只被当做字符串或者二进制数据 |
+| 图形关系（Graph） | InfiniteGraph, MarkLogic, Neo4J | 社交网络，推荐系统等。专注于构建关系图谱 | 利用图结构相关算法。比如最短路径寻址，N度关系查找等。 | 很多时候需要对整个图做计算才能得出需要的信息，而且这种结构不太好做分布式的集群方案 |
+
+
+
+
