@@ -6,7 +6,7 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/7f/SHAhmac.svg)
 
-根据RFC 2104，HMAC的数学公式为： $$ {\displaystyle {\textit {HMAC}}(K,m)=H{\Bigl (}(K'\oplus opad)\;||\;H{\bigl (}(K'\oplus ipad)\;||\;m{\bigr )}{\Bigr )}} $$
+$$ {\displaystyle {\textit {HMAC}}(K,m)=H{\Bigl (}(K'\oplus opad)\;||\;H{\bigl (}(K'\oplus ipad)\;||\;m{\bigr )}{\Bigr )}} $$
 
 其中：
 
