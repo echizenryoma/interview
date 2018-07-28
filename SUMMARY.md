@@ -13,6 +13,10 @@
   * [套接字编程基础](/chapters/network/socket.md)
   * [HTTP](/chapters/network/http.md)
 
+
+* [计算机网络](/chapters/security/README.md)
+  * [信息摘要](/chapters/security/message-digest.md)
+
 ---
 
 * [数据库](/chapters/database/README.md)
