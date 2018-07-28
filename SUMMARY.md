@@ -16,7 +16,8 @@
 
 * [网络安全](/chapters/security/README.md)
   * [消息摘要](/chapters/security/message-digest.md)
-
+  * [消息认证码](/chapters/security/hmac.md)
+  
 ---
 
 * [数据库](/chapters/database/README.md)
