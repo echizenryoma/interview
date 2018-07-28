@@ -19,18 +19,45 @@
 
 ### 填充方式
 
-ANSIX923  
-ANSIX923 填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节均填充数字零。  
-假定块长度为8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07
+#### ANSIX923
 
-ISO10126  
-ISO10126 填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节填充随机数据。  
-假定块长度为 8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 7D 2A 75 EF F8 EF 07
+ANSIX923填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节均填充数字零。  
 
-PKCS7  
-PKCS7 填充字符串由一个字节序列组成，每个字节填充该字节序列的长度。  
-假定块长度为 8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07，如果恰好8个字节时还要补8个字节的0x08，可以让解密的数据很确定无误的移除多余的字节。 PKCS5Padding 和 PKCS7Padding 在这方面是类似的。不同点在于，选择算法的时候如果选用 PKCS5Padding 填充模式，就是明确指定块大小是 8 个字节。选用 PKCS7Padding 则是没有明确指定块大小。如果选择算法的时候选用 PKCS7Padding 填充模式，同时设置块大小为 8 字节，和选用 PKCS5Padding 填充模式，没有设置块大小（实际已经设置了 8 字节），这两种情况下，两种填充模式没有区别。另外有个值得注意的是，AES 中块大小是固定 16 字节。
+例如：
 
-Zeros  
+块长度为8，数据长度为9
+
+数据： FF FF FF FF FF FF FF FF FF，
+
+填充： FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07
+
+#### ISO10126
+
+ISO10126填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节填充随机数据。
+
+例如：
+
+块长度为8，数据长度为9
+
+数据： FF FF FF FF FF FF FF FF FF
+
+填充： FF FF FF FF FF FF FF FF FF XX XX XX XX XX XX 07
+
+#### PKCSv7
+
+PKCSv7填充字符串由一个字节序列组成，每个字节填充该字节序列的长度。 
+
+例如：
+
+块长度为8，数据长度为9
+
+数据： FF FF FF FF FF FF FF FF FF
+
+填充： FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07
+
+PKCSv5和PKCSv7类似，不同点在于PKCSv5填充模式明确指定了块大小为64位。
+
+### 零填充
+
 填充字符串由设置为零的字节组成
 
