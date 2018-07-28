@@ -15,7 +15,7 @@
 
 
 * [网络安全](/chapters/security/README.md)
-  * [信息摘要](/chapters/security/message-digest.md)
+  * [消息摘要](/chapters/security/message-digest.md)
 
 ---
 
