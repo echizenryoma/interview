@@ -1,0 +1,30 @@
+## 分组密码
+
+### 工作模式
+
+分组密码算法只能加密固定长度的分组，若要加密变长数据，则数据必须先被划分为一些单独的密码块。通常而言，最后一块数据也需要使用合适填充方式将数据扩展到匹配密码块大小的长度。对于变长数据需要对分组密码算法进行迭代，以便将明文全部加密。而迭代的方法就称为分组密码的模式（mode），主要有以下模式：
+
+* `ECB`：Electronic CodeBook mode（电子密码模式）
+* `CBC`：Cipher Block Chaining mode（密码分组链接模式）
+* `CFB`：Cipher FeedBack mode（密文反馈模式）
+* `OFB`：Output FeedBack mode（输出反馈模式）
+* `CTR`：CounTeR mode（计数器模式）
+
+
+
+### 填充方式
+
+ANSIX923
+ANSIX923 填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节均填充数字零。
+假定块长度为8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 00 00 00 00 00 00 07
+
+ISO10126
+ISO10126 填充字符串由一个字节序列组成，此字节序列的最后一个字节填充字节序列的长度，其余字节填充随机数据。
+假定块长度为 8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 7D 2A 75 EF F8 EF 07
+
+PKCS7
+PKCS7 填充字符串由一个字节序列组成，每个字节填充该字节序列的长度。
+假定块长度为 8，数据长度为 9，数据： FF FF FF FF FF FF FF FF FF，填充： FF FF FF FF FF FF FF FF FF 07 07 07 07 07 07 07，如果恰好8个字节时还要补8个字节的0x08，可以让解密的数据很确定无误的移除多余的字节。 PKCS5Padding 和 PKCS7Padding 在这方面是类似的。不同点在于，选择算法的时候如果选用 PKCS5Padding 填充模式，就是明确指定块大小是 8 个字节。选用 PKCS7Padding 则是没有明确指定块大小。如果选择算法的时候选用 PKCS7Padding 填充模式，同时设置块大小为 8 字节，和选用 PKCS5Padding 填充模式，没有设置块大小（实际已经设置了 8 字节），这两种情况下，两种填充模式没有区别。另外有个值得注意的是，AES 中块大小是固定 16 字节。
+
+Zeros
+填充字符串由设置为零的字节组成
