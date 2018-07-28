@@ -14,7 +14,7 @@
   * [HTTP](/chapters/network/http.md)
 
 
-* [计算机网络](/chapters/security/README.md)
+* [网络安全](/chapters/security/README.md)
   * [信息摘要](/chapters/security/message-digest.md)
 
 ---
