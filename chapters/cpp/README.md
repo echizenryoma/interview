@@ -7,3 +7,4 @@
 * [多态](/chapters/cpp/polymorphism.md)
 * [函数调用](/chapters/cpp/call.md)
 * [新特性](/chapters/cpp/new-features.md)
+* [GCC](/chapters/cpp/gcc.md)
