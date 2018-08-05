@@ -57,6 +57,7 @@
   * [函数调用](/chapters/cpp/call.md)
   * [新特性](/chapters/cpp/new-features.md)
   * [GCC](/chapters/cpp/gcc.md)
+  * [GDB](/chapters/cpp/gdb.md)
 * [Java](/chapters/java/README.md)
   * [集合框架](/chapters/java/collections-framework.md)
   * [线程](/chapters/java/thread.md)
