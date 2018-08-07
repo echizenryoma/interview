@@ -38,9 +38,7 @@ Connection: Keep-Alive
 sex=man&name=Professional
 ```
 
-### 从输入URL到页面加载发生了什么？
-
-总体来说分为以下几个过程：
+### 页面加载
 
 1. 解析域名
 2. 建立TCP连接
@@ -97,6 +95,39 @@ sex=man&name=Professional
 * `POST`用于创建资源，所对应的URI并非创建的资源本身，而是去执行创建动作的操作者，有副作用，不满足幂等性。
 * `PUT`用于创建或更新操作，所对应的URI是要创建或更新的资源本身，有副作用，它应该满足幂等性。
 
+### 缓存
+
+#### 首部
+
+##### 通用首部
+
+| **字段** | **说明** |
+| :---: | :---: |
+| Cache-Control | 控制缓存行为 |
+| Pragma | `no-cache`禁用缓存（HTTP/1.0） |
+
+##### 请求首部
+
+| **字段** | **说明** |
+| :---: | :---: |
+| If-Match | 比较与`ETag`字段是否一致 |
+| If-None-Match| 比较与`ETag`字段是否不一致 |
+| If-Modified-Since | 比较最后修改时间是否一致 |
+| If-Unmodified-Since | 比较最后修改时间是否不一致 |
+
+##### 响应首部
+
+| **字段** | **说明** |
+| :---: | :---: |
+| ETag | 匹配信息 |
+
+##### 实体首部
+
+| **字段** | **说明** |
+| :---: | :---: |
+| Expires | 实体过期时间（HTTP/1.0） |
+| Last-Modified | 最后修改时间 |
+
 ### 跨站请求伪造\(Cross-site request forgery, CSRF\)
 
 1. 检查Referer字段
@@ -109,10 +140,11 @@ sex=man&name=Professional
 
 ### HTTPS
 
-HTTPS = HTTP \+ SSL/TLS
+HTTPS = HTTP + SSL/TLS
 
 #### 优缺点
 
 HTTPS在传输数据之前需要客户端与服务器进行一个握手\(SSL/TLS握手\)，在握手过程中将确立双方加密传输数据的密码信息。TLS/SSL使用了非对称加密，对称加密以及信息摘要函数等。
 
 HTTPS相比于HTTP，虽然提供了安全保证，但是势必会带来一些时间上的损耗，如握手和加密等过程，是否使用HTTPS需要根据具体情况在安全和性能方面做出权衡。
+
