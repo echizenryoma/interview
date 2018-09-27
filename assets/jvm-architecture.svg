@@ -261,7 +261,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.8425" cy="304.823" width="57.69" height="39.685"/>
 			<rect x="0" y="284.98" width="57.685" height="39.685" class="st3"/>
-			<text x="4.73" y="307.86" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Java<tspan class="st8">栈区</tspan></text>		</g>
+			<text x="9.57" y="307.86" class="st7" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>Java<tspan class="st8">栈区</tspan></text>		</g>
 		<g id="shape22-35" v:mID="22" v:groupContext="shape" transform="translate(229.414,-139.018)">
 			<title>矩形.22</title>
 			<desc>程序计数器</desc>
@@ -271,7 +271,7 @@
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="28.8425" cy="304.823" width="57.69" height="39.685"/>
 			<rect x="0" y="284.98" width="57.685" height="39.685" class="st3"/>
-			<text x="9.57" y="307.86" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>程序计数器</text>		</g>
+			<text x="0" y="307.86" class="st6" v:langID="2052"><v:paragraph v:horizAlign="1"/><v:tabList/>程序计数器</text>		</g>
 		<g id="shape23-38" v:mID="23" v:groupContext="shape" transform="translate(297.871,-139.018)">
 			<title>矩形.23</title>
 			<desc>本地方法栈区</desc>
